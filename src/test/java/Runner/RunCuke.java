@@ -16,7 +16,7 @@ import java.util.Map;
         plugin = {"json:target/positive/cucumber.json", "pretty", "html:target/positive/cucumber.html","com.cucumber.listener.ExtentCucumberFormatter"},
         features = "src\\test\\resources\\Features",
         glue = "Steps",
-        tags = {"@v2"}
+        tags = {"@genpromono"}
 )
 
 public class RunCuke extends AbstractTestNGCucumberTests {
@@ -31,7 +31,7 @@ public class RunCuke extends AbstractTestNGCucumberTests {
         File newFile = new File(fileName);
         ExtentCucumberFormatter.initiateExtentCucumberFormatter(newFile,false);
         // Loads the extent config xml to customize on the report.
-        ExtentCucumberFormatter.loadConfig(new File("src/test/resources/extent-config.xml"));
+        ExtentCucumberFormatter.loadConfig(new File("src/test/Resources/extent-config.xml"));
 
         // User can add the system information as follows
         ExtentCucumberFormatter.addSystemInfo("Browser Name", "Chrome");

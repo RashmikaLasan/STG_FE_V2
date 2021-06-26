@@ -1,4 +1,4 @@
-package StepDefs;
+package Steps;
 
 import Utilities.SeleniumDriver;
 import cucumber.api.java.*;
