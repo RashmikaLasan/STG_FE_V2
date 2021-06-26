@@ -5,21 +5,18 @@ import Utilities.SeleniumDriver;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.support.PageFactory;
-
-import java.util.Arrays;
-
 import static org.testng.Assert.assertTrue;
 
 public class CheckOutPageActions {
 
     CheckOutPageLocators checkOutPageLocators;
     public boolean present;
-    public String ProductTitle;
-    public String DepartureDate;
-    public String GuessCount;
-    public String Location;
-    public String SubTotal;
-    public String FullPrice;
+    public static String ProductTitle;
+    public static String DepartureDate;
+    public static String GuessCount;
+    public static String Location;
+    public static String SubTotal;
+    public static String FullPrice;
 
     public CheckOutPageActions() {
 

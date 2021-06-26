@@ -51,7 +51,7 @@ public class CheckOutPageLocators {
     @FindBy(how = How.XPATH, using = "//h1[normalize-space()='YOUR DETAILS']")
     public WebElement YourDetails;
 
-    @FindBy(how = How.XPATH, using = "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[3]/div[1]/form[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]")
+    @FindBy(how = How.XPATH, using = "//body/div[@id='root']/div[1]/div[2]/div[1]/div[3]/div[1]/form[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]")
     public WebElement Tick;
 
     @FindBy(how = How.XPATH, using = "//button[contains(text(),'Confirm & Pay')]")

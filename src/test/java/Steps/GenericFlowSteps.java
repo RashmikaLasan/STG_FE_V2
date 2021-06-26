@@ -1,6 +1,7 @@
 package Steps;
 
 import PageActions.CheckOutPageActions;
+import PageActions.ConfirmPageActions;
 import Utilities.SeleniumDriver;
 import Utilities.TimeHandler;
 import cucumber.api.PendingException;
@@ -11,6 +12,7 @@ public class GenericFlowSteps {
     public static String StartDate;
     public String STGBase = "https://staging.theculturetrip.com/checkout/?";
     CheckOutPageActions checkOutPageActions = new CheckOutPageActions();
+    ConfirmPageActions confirmPageActions = new ConfirmPageActions();
 
     @Given("^user set the booking parameter checkIn date as \"([^\"]*)\" Supplier Code as \"([^\"]*)\" City as \"([^\"]*)\" ChoiceKey as \"([^\"]*)\" pax as \"([^\"]*)\" ChildDoB as \"([^\"]*)\" seniorDob as \"([^\"]*)\" currency as \"([^\"]*)\" bookingProductType as \"([^\"]*)\"$")
     public void userSetTheBookingParameterCheckInDateAsSupplierCodeAsCityAsChoiceKeyAsPaxAsChildDoBAsSeniorDobAsCurrencyAsBookingProductTypeAs(int FutureDateCount, String supplierCode, String City, String ChoiceKey, String Pax, String childDob, String seniorDob, String currency, String bookingProductType) throws Throwable {
@@ -111,5 +113,42 @@ public class GenericFlowSteps {
 
         checkOutPageActions.ConfirmCart();
 
+    }
+
+    @When("^user Navigate to the Confirmation Page Booking ID Should be displayed$")
+    public void userNavigateToTheConfirmationPageBookingIDShouldBeDisplayed() throws Throwable {
+
+        confirmPageActions.BookingIdVisible();
+
+    }
+
+    @And("^Correct Product Name should be displayed$")
+    public void correctProductNameShouldBeDisplayed() throws Throwable {
+
+        confirmPageActions.ProductNameAssertion();
+    }
+
+    @And("^Correct Travelling Date should be displayed$")
+    public void correctTravellingDateShouldBeDisplayed() throws Throwable {
+
+        confirmPageActions.DateAssertion();
+    }
+
+    @And("^Correct Guest Count should be displayed$")
+    public void correctGuestCountShouldBeDisplayed() throws Throwable {
+
+        confirmPageActions.GuestAssertion();
+    }
+
+    @And("^Correct City Location should be displayed$")
+    public void correctCityLocationShouldBeDisplayed() throws Throwable {
+
+        confirmPageActions.LocationAssertion();
+    }
+
+    @Then("^Close the Browser$")
+    public void closeTheBrowser() throws Throwable {
+
+        SeleniumDriver.getDriver().quit();
     }
 }

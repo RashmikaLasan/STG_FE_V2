@@ -20,13 +20,12 @@ Feature: Do the generic search and complete the booking which do not have the Pr
 
     Then User fill the payment details
     Then click Confirm
-#    When user Navigate to the Confirmation Page
-#    Then Booking ID Should be displayed
-#    And Correct Product Name should be displayed
-#    And Correct Travelling Date should be displayed
-#
-#    And Correct Guest Count should be displayed
-#    And Correct City Location should be displayed
+    When user Navigate to the Confirmation Page Booking ID Should be displayed
+    And Correct Product Name should be displayed
+    And Correct Travelling Date should be displayed
+    And Correct Guest Count should be displayed
+    And Correct City Location should be displayed
+#    Then Close the Browser
 #    And Correct Price should be displayed
 
 
