@@ -157,4 +157,11 @@ public class GenericFlowSteps {
 
         confirmPageActions.PriceAssertion();
     }
+
+    @Then("^User Fill the Promo Code as \"([^\"]*)\"$")
+    public void userFillThePromoCodeAs(String Promo) throws Throwable {
+
+        checkOutPageActions.PromoApply(Promo);
+
+    }
 }

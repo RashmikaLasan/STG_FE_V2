@@ -81,12 +81,4 @@ public class CheckOutPageLocators {
     @FindBy(how = How.CSS, using = ".jPMSVP .igoXrd")
     public WebElement TotalPrice1;
 
-
-
-
-
-
-
-
-
 }

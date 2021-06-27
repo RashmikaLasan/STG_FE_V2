@@ -100,8 +100,10 @@ public class CheckOutPageActions {
         System.out.println("Title Select");
 
         checkOutPageLocators.FName1.sendKeys(FirstName);
+        Thread.sleep(500);
+        System.out.println("First Name Entered");
         checkOutPageLocators.LName1.sendKeys(LastName);
-        System.out.println("Name Entered");
+        System.out.println("Last Name Entered");
         Thread.sleep(2000);
 
     }
@@ -172,5 +174,14 @@ public class CheckOutPageActions {
         checkOutPageLocators.Tick.click();
         checkOutPageLocators.Confirm.click();
         Thread.sleep(25000);
+    }
+
+    public void PromoApply(String Promo) throws InterruptedException {
+
+        checkOutPageLocators.PromoCodeBox.sendKeys(Promo);
+        checkOutPageLocators.PromoCodeApply.click();
+        System.out.println("Promo Code applied");
+        Thread.sleep(2000);
+
     }
 }

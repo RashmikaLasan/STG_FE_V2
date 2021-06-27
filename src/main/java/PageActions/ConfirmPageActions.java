@@ -82,7 +82,7 @@ public class ConfirmPageActions {
         String TotPaid = confirmPageLocators.Paid.getText();
         Paid = TotPaid.split("£")[1];
         Assert.assertEquals(Paid, FullPrice);
-        System.out.println("FullPrice Assertion Success");
+        System.out.println("Price Assertion Success");
 
 
     }

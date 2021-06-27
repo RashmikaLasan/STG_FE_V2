@@ -16,7 +16,7 @@ import java.util.Map;
         plugin = {"json:target/positive/cucumber.json", "pretty", "html:target/positive/cucumber.html","com.cucumber.listener.ExtentCucumberFormatter"},
         features = "src\\test\\resources\\Features",
         glue = "Steps",
-        tags = {"@genpromono"}
+        tags = {"@genpromoyes"}
 )
 
 public class RunCuke extends AbstractTestNGCucumberTests {
