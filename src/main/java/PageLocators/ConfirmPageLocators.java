@@ -24,4 +24,16 @@ public class ConfirmPageLocators {
     @FindBy(how = How.XPATH, using = "//body/div[@id='root']/div[1]/div[2]/div[1]/div[3]/div[1]/span[1]")
     public WebElement BookingID;
 
+    @FindBy(how = How.XPATH, using = "//button[normalize-space()='here']")
+    public WebElement CancelIcon;
+
+    @FindBy(how = How.XPATH, using = "//button[normalize-space()='Yes, cancel my booking']")
+    public WebElement CancelBooking;
+
+    @FindBy(how = How.XPATH, using = "//span[contains(text(),'Are you sure you want to cancel your booking?')]")
+    public WebElement CancelPopUp;
+
+
+
+
 }

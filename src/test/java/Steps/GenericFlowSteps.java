@@ -56,21 +56,24 @@ public class GenericFlowSteps {
 
     @And("^check the Guest Count is Correct$")
     public void checkTheGuestCountIsCorrect() {
+
         checkOutPageActions.GuessCount();
     }
 
     @And("^check the Sub Price of the Booking$")
     public void checkTheSubPriceOfTheBooking() {
+
         checkOutPageActions.SubPrice();
     }
 
     @And("^check the Total Price of the Booking$")
     public void checkTheTotalPriceOfTheBooking() {
+
         checkOutPageActions.FullTotal();
     }
 
     @Then("^User fill the Passenger Details where First Name as \"([^\"]*)\" and Last Name as \"([^\"]*)\"$")
-    public void userFillThePassengerDetailsWhereFirstNameAsAndLastNameAs(String FName, String LName) throws Throwable {
+    public void userFillThePassengerDetailsWhereFirstNameAsAndLastNameAs(String FName, String LName) throws InterruptedException {
 
         checkOutPageActions.PassengerName(FName, LName);
 
@@ -162,6 +165,27 @@ public class GenericFlowSteps {
     public void userFillThePromoCodeAs(String Promo) throws Throwable {
 
         checkOutPageActions.PromoApply(Promo);
+
+    }
+
+    @When("^click Cancel Icon$")
+    public void clickCancelIcon() throws Throwable {
+
+        confirmPageActions.CancelIcon();
+
+    }
+
+    @Then("^Cancel PopUp should display$")
+    public void cancelPopUpShouldDisplay() throws Throwable {
+
+        confirmPageActions.CancelPopUp();
+
+    }
+
+    @Then("^Click Cancel the Booking$")
+    public void clickCancelTheBooking() throws Throwable {
+
+        confirmPageActions.ClickCancelButton();
 
     }
 }

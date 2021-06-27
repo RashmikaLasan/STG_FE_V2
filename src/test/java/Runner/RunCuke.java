@@ -4,7 +4,6 @@ import com.cucumber.listener.ExtentCucumberFormatter;
 import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 import org.testng.annotations.BeforeClass;
-
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -16,7 +15,7 @@ import java.util.Map;
         plugin = {"json:target/positive/cucumber.json", "pretty", "html:target/positive/cucumber.html","com.cucumber.listener.ExtentCucumberFormatter"},
         features = "src\\test\\resources\\Features",
         glue = "Steps",
-        tags = {"@genpromoyes"}
+        tags = {"@gencancel"}
 )
 
 public class RunCuke extends AbstractTestNGCucumberTests {

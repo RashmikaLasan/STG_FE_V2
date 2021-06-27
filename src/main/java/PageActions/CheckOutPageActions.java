@@ -56,7 +56,6 @@ public class CheckOutPageActions {
         DepartureDate = FullDate.split(":")[1];
         System.out.println("Departure Date is: " + DepartureDate);
 
-
     }
 
     public void Location() {
@@ -64,7 +63,6 @@ public class CheckOutPageActions {
         String FullLocation = checkOutPageLocators.Location1.getText();
         Location = FullLocation.split(":")[1];
         System.out.println("Location is: " + Location);
-
 
     }
 
@@ -108,7 +106,7 @@ public class CheckOutPageActions {
 
     }
 
-    public void PassengerEmail(String EmailAddress) throws InterruptedException {
+    public void PassengerEmail(String EmailAddress) {
 
         checkOutPageLocators.Email1.click();
         checkOutPageLocators.Email1.sendKeys(EmailAddress);
@@ -172,7 +170,9 @@ public class CheckOutPageActions {
     public void ConfirmCart() throws InterruptedException {
 
         checkOutPageLocators.Tick.click();
+        System.out.println("Tick the Box");
         checkOutPageLocators.Confirm.click();
+        System.out.println("Click Confirm Button");
         Thread.sleep(25000);
     }
 
@@ -184,4 +184,6 @@ public class CheckOutPageActions {
         Thread.sleep(2000);
 
     }
+
+
 }
