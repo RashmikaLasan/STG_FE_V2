@@ -151,4 +151,10 @@ public class GenericFlowSteps {
 
         SeleniumDriver.getDriver().quit();
     }
+
+    @And("^Correct Price should be displayed$")
+    public void correctPriceShouldBeDisplayed() throws Throwable {
+
+        confirmPageActions.PriceAssertion();
+    }
 }

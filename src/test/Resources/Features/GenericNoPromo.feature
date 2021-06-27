@@ -11,7 +11,7 @@ Feature: Do the generic search and complete the booking which do not have the Pr
     And check the Guest Count is Correct
     And check the Sub Price of the Booking
     And check the Total Price of the Booking
-#
+
     Then User fill the Passenger Details where First Name as "Lasan" and Last Name as "Rashmika"
     Then User fill the email address "lasanrash@gmail.com"
     Then Scroll Down the Screen
@@ -25,8 +25,9 @@ Feature: Do the generic search and complete the booking which do not have the Pr
     And Correct Travelling Date should be displayed
     And Correct Guest Count should be displayed
     And Correct City Location should be displayed
-#    Then Close the Browser
-#    And Correct Price should be displayed
+    Then Scroll Down the Screen
+    Then Scroll Down the Screen
+    And Correct Price should be displayed
 
 
 

@@ -14,6 +14,7 @@ public class ConfirmPageActions {
     public String ConfirmGuest;
     public String ConfirmLocation;
     public String BookingId;
+    public String Paid;
     ConfirmPageLocators confirmPageLocators;
 
     public ConfirmPageActions() {
@@ -75,6 +76,16 @@ public class ConfirmPageActions {
 
     }
 
+
+    public void PriceAssertion() {
+
+        String TotPaid = confirmPageLocators.Paid.getText();
+        Paid = TotPaid.split("£")[1];
+        Assert.assertEquals(Paid, FullPrice);
+        System.out.println("FullPrice Assertion Success");
+
+
+    }
 
 }
 
