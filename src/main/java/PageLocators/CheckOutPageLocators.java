@@ -84,19 +84,19 @@ public class CheckOutPageLocators {
     @FindBy(how = How.XPATH, using = "//body/div[@id='root']/div[1]/div[2]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/span[1]")
     public WebElement HotelName1;
 
-    @FindBy(how = How.XPATH, using = "//body/div[@id='root']/div[1]/div[2]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/span[2]//body/div[@id='root']/div[1]/div[2]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/span[2]")
+    @FindBy(how = How.CSS, using = ".OverviewPanelstyled__Main-sc-33lk3x-3 > div:nth-of-type(2) > span:nth-of-type(2)")
     public WebElement HTLAddress1;
 
     @FindBy(how = How.XPATH, using = "//body/div[@id='root']/div[1]/div[2]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/span[3]")
     public WebElement RoomType1;
 
-    @FindBy(how = How.XPATH, using = "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[2]")
+    @FindBy(how = How.CSS, using = "div[class='sc-gKAaRy diOUFQ'] div:nth-child(1) span:nth-child(2)")
     public WebElement CheckIn1;
 
-    @FindBy(how = How.XPATH, using = "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/span[2]")
+    @FindBy(how = How.CSS, using = ".diOUFQ > div:nth-of-type(2) > span:nth-of-type(2)")
     public WebElement CheckOut1;
 
-    @FindBy(how = How.XPATH, using = "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/span[4]")
+    @FindBy(how = How.CSS, using = ".OverviewPanelstyled__Main-sc-33lk3x-3 > div:nth-of-type(2) > span:nth-of-type(4)")
     public WebElement PaxCount1;
 
 }

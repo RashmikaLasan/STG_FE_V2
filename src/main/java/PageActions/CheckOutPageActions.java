@@ -101,7 +101,7 @@ public class CheckOutPageActions {
         checkOutPageLocators.Title1.click();
         Thread.sleep(3000);
         checkOutPageLocators.TitleSelect1.click();
-        System.out.println("Title Select");
+        System.out.println("Passenger Title Select");
 
         checkOutPageLocators.FName1.sendKeys(FirstName);
         Thread.sleep(500);
@@ -220,9 +220,9 @@ public class CheckOutPageActions {
 
     public void PaxCount() {
 
-        String Pax_Count = checkOutPageLocators.RoomType1.getText();
+        String Pax_Count = checkOutPageLocators.PaxCount1.getText();
         PaxNo = Pax_Count.split(":")[1];
-        System.out.println("Pax Count is: " + Roomtype);
+        System.out.println("Pax Count is: " + PaxNo);
 
     }
 
