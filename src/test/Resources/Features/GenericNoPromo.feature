@@ -1,5 +1,4 @@
-Feature: Do the generic search and complete the booking which do not have the Promo Code
-
+Feature: Do the Generic search and complete the booking
   @genpromono
   Scenario Outline: Validate Generic Flow for 1 Adult without Promo Code for Refundable Product
 
@@ -20,6 +19,7 @@ Feature: Do the generic search and complete the booking which do not have the Pr
 
     Then User fill the payment details
     Then click Confirm
+
     When user Navigate to the Confirmation Page Booking ID Should be displayed
     And Correct Product Name should be displayed
     And Correct Travelling Date should be displayed
@@ -114,11 +114,6 @@ Feature: Do the generic search and complete the booking which do not have the Pr
     When click Cancel Icon
     Then Cancel PopUp should display
     Then Click Cancel the Booking
-
-
-
-
-
 
 
     Examples:

@@ -4,7 +4,6 @@ import PageActions.CheckOutPageActions;
 import PageActions.ConfirmPageActions;
 import Utilities.SeleniumDriver;
 import Utilities.TimeHandler;
-import cucumber.api.PendingException;
 import cucumber.api.java.en.*;
 
 public class GenericFlowSteps {

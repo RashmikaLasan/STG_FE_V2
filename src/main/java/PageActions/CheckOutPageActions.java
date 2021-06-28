@@ -17,6 +17,12 @@ public class CheckOutPageActions {
     public static String Location;
     public static String SubTotal;
     public static String FullPrice;
+    public static String HotelTitle;
+    public static String CheckInDate;
+    public static String CheckOutDate;
+    public static String HTLaddress;
+    public static String Roomtype;
+    public static String PaxNo;
 
     public CheckOutPageActions() {
 
@@ -185,5 +191,55 @@ public class CheckOutPageActions {
 
     }
 
+
+    public void HotelName(String HName) {
+
+        HotelTitle = checkOutPageLocators.HotelName1.getText();
+        assertTrue(HotelTitle.contains(HName));
+        System.out.println("Hotel Name is :" + HotelTitle);
+        System.out.println("Hotel Name Assertion Success");
+
+    }
+
+    public void HTLAddress1() {
+
+        String HTL_Address = checkOutPageLocators.HTLAddress1.getText();
+        HTLaddress = HTL_Address.split(":")[1];
+        System.out.println("HTL Address is: " + HTLaddress);
+
+    }
+
+    public void RoomType() {
+
+        String Room_Type = checkOutPageLocators.RoomType1.getText();
+        Roomtype = Room_Type.split(":")[1];
+        System.out.println("Room Type is: " + Roomtype);
+
+    }
+
+
+    public void PaxCount() {
+
+        String Pax_Count = checkOutPageLocators.RoomType1.getText();
+        PaxNo = Pax_Count.split(":")[1];
+        System.out.println("Pax Count is: " + Roomtype);
+
+    }
+
+
+    public void CheckInDate() {
+
+        CheckInDate = checkOutPageLocators.CheckIn1.getText();
+        System.out.println("CheckIn Date is: " + CheckInDate);
+
+    }
+
+
+    public void CheckOutDate() {
+
+        CheckOutDate = checkOutPageLocators.CheckOut1.getText();
+        System.out.println("CheckOut Date is: " + CheckOutDate);
+
+    }
 
 }
