@@ -1,6 +1,8 @@
 Feature: Do the Generic search and complete the booking
+
+
   @genpromono
-  Scenario Outline: Validate Generic Flow for 1 Adult without Promo Code for Refundable Product
+  Scenario Outline: 1.1 Validate Generic Flow for 1 Adult without Promo Code for Refundable Product
 
     Given user set the booking parameter checkIn date as "<FutureDateCount>" Supplier Code as "<supplierCode>" City as "<City>" ChoiceKey as "<ChoiceKey>" pax as "<Pax>" ChildDoB as "<childDob>" seniorDob as "<seniorDob>" currency as "<currency>" bookingProductType as "<bookingProductType>"
     When Checkout page should be loaded
@@ -41,7 +43,7 @@ Feature: Do the Generic search and complete the booking
 #    --------------------------------------------End----------------------------------------------------------------
 
   @genpromoyes
-  Scenario Outline: Validate Generic Flow for 1 Adult without Promo Code for Refundable Product
+  Scenario Outline: 1.2 Validate Generic Flow for 1 Adult without Promo Code for Refundable Product
 
     Given user set the booking parameter checkIn date as "<FutureDateCount>" Supplier Code as "<supplierCode>" City as "<City>" ChoiceKey as "<ChoiceKey>" pax as "<Pax>" ChildDoB as "<childDob>" seniorDob as "<seniorDob>" currency as "<currency>" bookingProductType as "<bookingProductType>"
     When Checkout page should be loaded
@@ -82,7 +84,7 @@ Feature: Do the Generic search and complete the booking
 
 
   @gencancel
-  Scenario Outline: Validate Generic Flow for 1 Adult without Promo Code for Refundable Product
+  Scenario Outline: 1.3 Validate Generic Flow for 1 Adult without Promo Code for Refundable Product
 
     Given user set the booking parameter checkIn date as "<FutureDateCount>" Supplier Code as "<supplierCode>" City as "<City>" ChoiceKey as "<ChoiceKey>" pax as "<Pax>" ChildDoB as "<childDob>" seniorDob as "<seniorDob>" currency as "<currency>" bookingProductType as "<bookingProductType>"
     When Checkout page should be loaded
@@ -101,6 +103,7 @@ Feature: Do the Generic search and complete the booking
 
     Then User fill the payment details
     Then click Confirm
+
     When user Navigate to the Confirmation Page Booking ID Should be displayed
     And Correct Product Name should be displayed
     And Correct Travelling Date should be displayed

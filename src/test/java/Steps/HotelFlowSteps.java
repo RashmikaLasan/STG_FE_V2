@@ -29,7 +29,7 @@ public class HotelFlowSteps {
     }
 
     @And("^check the Hotel Name is Correct as \"([^\"]*)\"$")
-    public void checkTheHotelNameIsCorrectAs(String HTLname) throws Throwable {
+    public void checkTheHotelNameIsCorrectAs(String HTLname) {
 
         checkOutPageActions.HotelName(HTLname);
 
@@ -43,21 +43,21 @@ public class HotelFlowSteps {
     }
 
     @And("^check the CheckOut Date is Correct$")
-    public void checkTheCheckOutDateIsCorrect() throws Throwable {
+    public void checkTheCheckOutDateIsCorrect() {
 
         checkOutPageActions.CheckOutDate();
 
     }
 
     @And("^check the Travelling Address is Correct$")
-    public void checkTheTravellingAddressIsCorrect() throws Throwable {
+    public void checkTheTravellingAddressIsCorrect() {
 
         checkOutPageActions.HTLAddress1();
 
     }
 
     @And("^check the Pax Count is Correct$")
-    public void checkThePaxCountIsCorrect() throws Throwable {
+    public void checkThePaxCountIsCorrect() {
 
         checkOutPageActions.PaxCount();
 
@@ -65,9 +65,45 @@ public class HotelFlowSteps {
 
 
     @And("^check the Room Type Basis is Correct$")
-    public void checkTheRoomTypeBasisIsCorrect() throws Throwable {
+    public void checkTheRoomTypeBasisIsCorrect() {
 
         checkOutPageActions.RoomType();
 
     }
+
+    @And("^Correct Hotel Name should be displayed$")
+    public void correctHotelNameShouldBeDisplayed() {
+
+        confirmPageActions.HotelNameAssertion();
+
+    }
+
+    @And("^Correct CheckIn Date should be displayed$")
+    public void correctCheckInDateShouldBeDisplayed() throws Throwable {
+
+        confirmPageActions.CheckInDateAssertion();
+
+    }
+
+    @And("^Correct CheckOut Date should be displayed$")
+    public void correctCheckOutDateShouldBeDisplayed() throws Throwable {
+
+        confirmPageActions.CheckOutDateAssertion();
+
+    }
+
+    @And("^Correct Guest Count should be displayed for HotelBooking$")
+    public void correctGuestCountShouldBeDisplayedForHotelBooking() throws Throwable {
+
+        confirmPageActions.HTLPaxAssertion();
+
+    }
+
+    @And("^Correct City should be displayed$")
+    public void correctCityShouldBeDisplayed() throws Throwable {
+
+        confirmPageActions.CityAssertionHTL();
+
+    }
+
 }

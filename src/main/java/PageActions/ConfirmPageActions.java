@@ -17,6 +17,10 @@ public class ConfirmPageActions {
     public String BookingId;
     public String Paid;
     public boolean present;
+    public String CheckInDateConfirm;
+    public String CheckOutDateConfirm;
+    public String ConfirmPaxHTL;
+    public String ConfirmCity;
     ConfirmPageLocators confirmPageLocators;
 
     public ConfirmPageActions() {
@@ -27,6 +31,8 @@ public class ConfirmPageActions {
     }
 
     public void BookingIdVisible() {
+
+        System.out.println("Waiting till Navigate to the Page");
         if (confirmPageLocators.BookingID != null) {
 
             System.out.println("Navigated to the Confirmation Page");
@@ -47,6 +53,38 @@ public class ConfirmPageActions {
         Assert.assertEquals(ConfirmProductName, ProductTitle);
         System.out.println("Confirm Product Name Assertion Success");
 
+    }
+
+    public void HotelNameAssertion() {
+
+        ConfirmProductName = confirmPageLocators.ProductName.getText();
+        Assert.assertEquals(ConfirmProductName, HotelTitle);
+        System.out.println("Confirm Hotel Name Assertion Success and Hotel Name is: " + ConfirmProductName);
+
+    }
+
+    public void CheckInDateAssertion() {
+
+        CheckInDateConfirm = confirmPageLocators.CheckInDate.getText();
+        Assert.assertEquals(CheckInDateConfirm, CheckInDate);
+        System.out.println("CheckIn Date Assertion Success, CheckIn Date is: " + CheckInDateConfirm);
+
+    }
+
+    public void CheckOutDateAssertion() {
+
+        CheckOutDateConfirm = confirmPageLocators.CheckOutDate.getText();
+        Assert.assertEquals(CheckOutDateConfirm, CheckOutDate);
+        System.out.println("CheckOut Date Assertion Success and CheckOut Date is " + CheckOutDateConfirm);
+
+    }
+
+    public void HTLPaxAssertion() {
+
+        String HTLPAX = confirmPageLocators.HTLPaxCount.getText();
+        ConfirmPaxHTL = HTLPAX.split(":")[1];
+        Assert.assertEquals(ConfirmPaxHTL, PaxNo);
+        System.out.println("Confirm Guest Assertion Success for Hotels and Pax Combination is: " + ConfirmPaxHTL);
 
     }
 
@@ -63,7 +101,7 @@ public class ConfirmPageActions {
 
         String Guest = confirmPageLocators.Guests.getText();
         ConfirmGuest = Guest.split(":")[1];
-        Assert.assertEquals(ConfirmGuest, GuessCount);
+        Assert.assertEquals(ConfirmGuest, GuestCount);
         System.out.println("Confirm Guest Assertion Success");
 
     }
@@ -77,13 +115,22 @@ public class ConfirmPageActions {
 
     }
 
+    public void CityAssertionHTL() {
 
-    public void PriceAssertion() {
+        String CityLoc = confirmPageLocators.HTLCity.getText();
+        ConfirmCity = CityLoc.split(":")[1];
+        Assert.assertEquals(ConfirmCity, HTLaddress);
+        System.out.println("Confirm City Assertion Success and Hotel Location is: " + ConfirmCity);
 
+    }
+
+    public void PriceAssertion() throws InterruptedException {
+
+        Thread.sleep(2000);
         String TotPaid = confirmPageLocators.Paid.getText();
         Paid = TotPaid.split("£")[1];
         Assert.assertEquals(Paid, FullPrice);
-        System.out.println("Price Assertion Success");
+        System.out.println("Price Assertion Success and Paid Amount is: " + Paid);
 
     }
 

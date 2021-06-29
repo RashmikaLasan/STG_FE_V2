@@ -13,7 +13,7 @@ public class CheckOutPageActions {
     public boolean present;
     public static String ProductTitle;
     public static String DepartureDate;
-    public static String GuessCount;
+    public static String GuestCount;
     public static String Location;
     public static String SubTotal;
     public static String FullPrice;
@@ -23,6 +23,7 @@ public class CheckOutPageActions {
     public static String HTLaddress;
     public static String Roomtype;
     public static String PaxNo;
+    public static String HTLCityLocation;
 
     public CheckOutPageActions() {
 
@@ -72,11 +73,11 @@ public class CheckOutPageActions {
 
     }
 
-    public void GuessCount() {
+    public void GuestCount() {
 
-        String FullGuessCount = checkOutPageLocators.Guests1.getText();
-        GuessCount = FullGuessCount.split(":")[1];
-        System.out.println("Guess Count is: " + GuessCount);
+        String FullGuestCount = checkOutPageLocators.Guests1.getText();
+        GuestCount = FullGuestCount.split(":")[1];
+        System.out.println("Guest Count is: " + GuestCount);
 
     }
 
@@ -98,14 +99,16 @@ public class CheckOutPageActions {
 
     public void PassengerName(String FirstName, String LastName) throws InterruptedException {
 
+        Thread.sleep(1000);
         checkOutPageLocators.Title1.click();
         Thread.sleep(3000);
         checkOutPageLocators.TitleSelect1.click();
         System.out.println("Passenger Title Select");
 
         checkOutPageLocators.FName1.sendKeys(FirstName);
-        Thread.sleep(500);
+        Thread.sleep(1500);
         System.out.println("First Name Entered");
+        checkOutPageLocators.LName1.click();
         checkOutPageLocators.LName1.sendKeys(LastName);
         System.out.println("Last Name Entered");
         Thread.sleep(2000);
@@ -184,6 +187,7 @@ public class CheckOutPageActions {
 
     public void PromoApply(String Promo) throws InterruptedException {
 
+        Thread.sleep(2000);
         checkOutPageLocators.PromoCodeBox.sendKeys(Promo);
         checkOutPageLocators.PromoCodeApply.click();
         System.out.println("Promo Code applied");
@@ -225,6 +229,14 @@ public class CheckOutPageActions {
         System.out.println("Pax Count is: " + PaxNo);
 
     }
+
+//    public void HTLCity() {
+//
+//        String HTL_City = checkOutPageLocators.PaxCount1.getText();
+//        HTLCityLocation = HTL_City.split(":")[1];
+//        System.out.println("HTL City is: " + HTLCityLocation);
+//
+//    }
 
 
     public void CheckInDate() {

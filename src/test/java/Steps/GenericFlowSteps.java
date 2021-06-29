@@ -56,7 +56,7 @@ public class GenericFlowSteps {
     @And("^check the Guest Count is Correct$")
     public void checkTheGuestCountIsCorrect() {
 
-        checkOutPageActions.GuessCount();
+        checkOutPageActions.GuestCount();
     }
 
     @And("^check the Sub Price of the Booking$")
