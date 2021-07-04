@@ -24,6 +24,9 @@ public class CheckOutPageActions {
     public static String Roomtype;
     public static String PaxNo;
     public static String HTLCityLocation;
+    //    QuestionFillActions fillQuest = new QuestionFillActions();
+    QuestionFillActions questionFillActions = new QuestionFillActions();
+
 
     public CheckOutPageActions() {
 
@@ -150,11 +153,13 @@ public class CheckOutPageActions {
 
     public void BookingQuestion() throws InterruptedException {
 
-        checkOutPageLocators.Language1.click();
-        System.out.println("Tour/Activity Language Drop down Click Success");
-        Thread.sleep(3000);
-        checkOutPageLocators.LanguageSelect.click();
-        System.out.println("Select France from the Drop Down");
+        questionFillActions.languageSelect();
+        questionFillActions.addPassportNumber();
+        questionFillActions.addPassportNationality();
+        questionFillActions.addPassportExpiryDate();
+        questionFillActions.addArrivalAirline();
+        questionFillActions.arrivalFlightNo();
+        questionFillActions.dropOffLocation();
 
     }
 
