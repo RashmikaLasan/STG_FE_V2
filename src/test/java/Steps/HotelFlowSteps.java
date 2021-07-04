@@ -74,35 +74,35 @@ public class HotelFlowSteps {
     @And("^Correct Hotel Name should be displayed$")
     public void correctHotelNameShouldBeDisplayed() {
 
-        confirmPageActions.HotelNameAssertion();
+        confirmPageActions.hotelNameAssertion();
 
     }
 
     @And("^Correct CheckIn Date should be displayed$")
     public void correctCheckInDateShouldBeDisplayed() throws Throwable {
 
-        confirmPageActions.CheckInDateAssertion();
+        confirmPageActions.checkInDateAssertion();
 
     }
 
     @And("^Correct CheckOut Date should be displayed$")
     public void correctCheckOutDateShouldBeDisplayed() throws Throwable {
 
-        confirmPageActions.CheckOutDateAssertion();
+        confirmPageActions.checkOutDateAssertion();
 
     }
 
     @And("^Correct Guest Count should be displayed for HotelBooking$")
     public void correctGuestCountShouldBeDisplayedForHotelBooking() throws Throwable {
 
-        confirmPageActions.HTLPaxAssertion();
+        confirmPageActions.htlPaxAssertion();
 
     }
 
     @And("^Correct City should be displayed$")
     public void correctCityShouldBeDisplayed() throws Throwable {
 
-        confirmPageActions.CityAssertionHTL();
+        confirmPageActions.cityAssertionHTL();
 
     }
 

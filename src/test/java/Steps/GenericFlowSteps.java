@@ -120,32 +120,32 @@ public class GenericFlowSteps {
     @When("^user Navigate to the Confirmation Page Booking ID Should be displayed$")
     public void userNavigateToTheConfirmationPageBookingIDShouldBeDisplayed() throws Throwable {
 
-        confirmPageActions.BookingIdVisible();
+        confirmPageActions.bookingIdVisible();
 
     }
 
     @And("^Correct Product Name should be displayed$")
     public void correctProductNameShouldBeDisplayed() throws Throwable {
 
-        confirmPageActions.ProductNameAssertion();
+        confirmPageActions.productNameAssertion();
     }
 
     @And("^Correct Travelling Date should be displayed$")
     public void correctTravellingDateShouldBeDisplayed() throws Throwable {
 
-        confirmPageActions.DateAssertion();
+        confirmPageActions.dateAssertion();
     }
 
     @And("^Correct Guest Count should be displayed$")
     public void correctGuestCountShouldBeDisplayed() throws Throwable {
 
-        confirmPageActions.GuestAssertion();
+        confirmPageActions.guestAssertion();
     }
 
     @And("^Correct City Location should be displayed$")
     public void correctCityLocationShouldBeDisplayed() throws Throwable {
 
-        confirmPageActions.LocationAssertion();
+        confirmPageActions.locationAssertion();
     }
 
     @Then("^Close the Browser$")
@@ -157,7 +157,7 @@ public class GenericFlowSteps {
     @And("^Correct Price should be displayed$")
     public void correctPriceShouldBeDisplayed() throws Throwable {
 
-        confirmPageActions.PriceAssertion();
+        confirmPageActions.priceAssertion();
     }
 
     @Then("^User Fill the Promo Code as \"([^\"]*)\"$")
@@ -170,21 +170,21 @@ public class GenericFlowSteps {
     @When("^click Cancel Icon$")
     public void clickCancelIcon() throws Throwable {
 
-        confirmPageActions.CancelIcon();
+        confirmPageActions.cancelIcon();
 
     }
 
     @Then("^Cancel PopUp should display$")
     public void cancelPopUpShouldDisplay() throws Throwable {
 
-        confirmPageActions.CancelPopUp();
+        confirmPageActions.cancelPopUp();
 
     }
 
     @Then("^Click Cancel the Booking$")
     public void clickCancelTheBooking() throws Throwable {
 
-        confirmPageActions.ClickCancelButton();
+        confirmPageActions.clickCancelButton();
 
     }
 }

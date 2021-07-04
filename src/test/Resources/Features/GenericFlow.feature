@@ -96,7 +96,7 @@ Feature: Do the Generic search and complete the booking
     And check the Total Price of the Booking
 
     Then User fill the Passenger Details where First Name as "Lasan" and Last Name as "Rashmika"
-    Then User fill the email address "supunsnnk@gmail.com"
+    Then User fill the email address "lasanrash@gmail.com"
     Then Scroll Down the Screen
     Then User fill the Mobile Number as "71551996777"
     Then User fill the Booking Questions

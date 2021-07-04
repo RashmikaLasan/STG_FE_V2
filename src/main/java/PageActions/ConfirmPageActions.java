@@ -5,7 +5,6 @@ import Utilities.SeleniumDriver;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
-
 import static PageActions.CheckOutPageActions.*;
 
 public class ConfirmPageActions {
@@ -30,7 +29,7 @@ public class ConfirmPageActions {
 
     }
 
-    public void BookingIdVisible() {
+    public void bookingIdVisible() {
 
         System.out.println("Waiting till Navigate to the Page");
         if (confirmPageLocators.BookingID != null) {
@@ -47,7 +46,7 @@ public class ConfirmPageActions {
     }
 
 
-    public void ProductNameAssertion() {
+    public void productNameAssertion() {
 
         ConfirmProductName = confirmPageLocators.ProductName.getText();
         Assert.assertEquals(ConfirmProductName, ProductTitle);
@@ -55,7 +54,7 @@ public class ConfirmPageActions {
 
     }
 
-    public void HotelNameAssertion() {
+    public void hotelNameAssertion() {
 
         ConfirmProductName = confirmPageLocators.ProductName.getText();
         Assert.assertEquals(ConfirmProductName, HotelTitle);
@@ -63,7 +62,7 @@ public class ConfirmPageActions {
 
     }
 
-    public void CheckInDateAssertion() {
+    public void checkInDateAssertion() {
 
         CheckInDateConfirm = confirmPageLocators.CheckInDate.getText();
         Assert.assertEquals(CheckInDateConfirm, CheckInDate);
@@ -71,7 +70,7 @@ public class ConfirmPageActions {
 
     }
 
-    public void CheckOutDateAssertion() {
+    public void checkOutDateAssertion() {
 
         CheckOutDateConfirm = confirmPageLocators.CheckOutDate.getText();
         Assert.assertEquals(CheckOutDateConfirm, CheckOutDate);
@@ -79,7 +78,7 @@ public class ConfirmPageActions {
 
     }
 
-    public void HTLPaxAssertion() {
+    public void htlPaxAssertion() {
 
         String HTLPAX = confirmPageLocators.HTLPaxCount.getText();
         ConfirmPaxHTL = HTLPAX.split(":")[1];
@@ -88,7 +87,7 @@ public class ConfirmPageActions {
 
     }
 
-    public void DateAssertion() {
+    public void dateAssertion() {
 
         String DateAll = confirmPageLocators.Date.getText();
         ConfirmDate = DateAll.split(":")[1];
@@ -97,7 +96,7 @@ public class ConfirmPageActions {
 
     }
 
-    public void GuestAssertion() {
+    public void guestAssertion() {
 
         String Guest = confirmPageLocators.Guests.getText();
         ConfirmGuest = Guest.split(":")[1];
@@ -106,7 +105,7 @@ public class ConfirmPageActions {
 
     }
 
-    public void LocationAssertion() {
+    public void locationAssertion() {
 
         String Loc = confirmPageLocators.Location.getText();
         ConfirmLocation = Loc.split(":")[1];
@@ -115,7 +114,7 @@ public class ConfirmPageActions {
 
     }
 
-    public void CityAssertionHTL() {
+    public void cityAssertionHTL() {
 
         String CityLoc = confirmPageLocators.HTLCity.getText();
         ConfirmCity = CityLoc.split(":")[1];
@@ -124,7 +123,7 @@ public class ConfirmPageActions {
 
     }
 
-    public void PriceAssertion() throws InterruptedException {
+    public void priceAssertion() throws InterruptedException {
 
         Thread.sleep(2000);
         String TotPaid = confirmPageLocators.Paid.getText();
@@ -134,7 +133,7 @@ public class ConfirmPageActions {
 
     }
 
-    public void CancelIcon() throws InterruptedException {
+    public void cancelIcon() throws InterruptedException {
 
         confirmPageLocators.CancelIcon.click();
         Thread.sleep(2000);
@@ -142,7 +141,7 @@ public class ConfirmPageActions {
 
     }
 
-    public void CancelPopUp() {
+    public void cancelPopUp() {
 
         try {
 
@@ -156,7 +155,7 @@ public class ConfirmPageActions {
 
     }
 
-    public void ClickCancelButton() throws InterruptedException {
+    public void clickCancelButton() throws InterruptedException {
 
         confirmPageLocators.CancelBooking.click();
         System.out.println("Click the Booking Cancel Button");
