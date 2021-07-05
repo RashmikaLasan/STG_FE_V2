@@ -133,8 +133,6 @@ public class CheckOutPageActions {
         System.out.println("Scroll Down");
         checkOutPageLocators.SomeWhere.click();
 
-
-
     }
 
     public void PassengerPhone(String Phone) throws InterruptedException {
@@ -153,8 +151,9 @@ public class CheckOutPageActions {
 
     public void BookingQuestion() throws InterruptedException {
 
-        questionFillActions.languageSelect();
         questionFillActions.addPassportNumber();
+        questionFillActions.languageSelect();
+        questionFillActions.addBirthDate();
         questionFillActions.addPassportNationality();
         questionFillActions.addPassportExpiryDate();
         questionFillActions.addArrivalAirline();

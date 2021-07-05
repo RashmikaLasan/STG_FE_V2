@@ -34,8 +34,12 @@ public class QuestionLocators {
     @FindBy(how = How.XPATH, using = "//*[contains(@class, 'iJGVTQ')]/div/form/div/div[2]/div[2]/div/div/div")
     public WebElement languageClick;
 
-    @FindBy(how = How.XPATH, using = "//span[text()='English - Audio']")
+//    @FindBy(how = How.XPATH, using = "//span[text()='English - Audio']")
+//    public WebElement languageSelect;
+
+    @FindBy(how = How.XPATH, using = "//span[text()='English - Guide']")
     public WebElement languageSelect;
+
 
 
     @FindBy(how = How.XPATH, using = "//label[contains(text(),'Passport Number')]")
@@ -71,13 +75,13 @@ public class QuestionLocators {
     @FindBy(how = How.XPATH, using = "//label[normalize-space()='Date of Birth']")
     public WebElement BirthDateLabel;
 
-    @FindBy(how = How.ID, using = "dateOfBirth_dob-day")
+    @FindBy(how = How.XPATH, using = "//*[@name='undefined.day']")
     public WebElement birthDay;
 
-    @FindBy(how = How.ID, using = "dateOfBirth_dob-month")
+    @FindBy(how = How.XPATH, using = "//*[@name='undefined.month']")
     public WebElement birthMonth;
 
-    @FindBy(how = How.ID, using = "dateOfBirth_dob-year")
+    @FindBy(how = How.XPATH, using = "//*[@name='undefined.year']")
     public WebElement birthYear;
 
 

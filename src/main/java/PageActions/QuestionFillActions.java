@@ -5,6 +5,9 @@ import Utilities.SeleniumDriver;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.support.PageFactory;
 
+import javax.swing.text.Utilities;
+import java.util.concurrent.TimeUnit;
+
 public class QuestionFillActions {
 
     public boolean present;
@@ -38,17 +41,19 @@ public class QuestionFillActions {
 
     }
 
-
     public void addPassportNumber() {
+
+        SeleniumDriver.getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 
         try {
 
             questionLocators.passportNumber.isDisplayed();
             present = true;
-            System.out.println("Passport Number Element is Visible");
+            System.out.println("Passport tNumber Element is Visible");
 
             questionLocators.passportTextBox.sendKeys("N931400");
             System.out.println("Passport Number Entered");
+
 
         } catch (NoSuchElementException e) {
             present = false;
@@ -75,6 +80,7 @@ public class QuestionFillActions {
         }
 
     }
+
 
     public void addPassportExpiryDate() {
 
@@ -117,6 +123,7 @@ public class QuestionFillActions {
 
     }
 
+
     public void arrivalFlightNo() {
 
         try {
@@ -147,6 +154,30 @@ public class QuestionFillActions {
 
         } catch (NoSuchElementException e) {
             present = false;
+        }
+
+    }
+
+    public void addBirthDate() throws InterruptedException {
+
+        try {
+
+            questionLocators.BirthDateLabel.isDisplayed();
+
+            System.out.println("Birth Day Element is Visible");
+            questionLocators.birthDay.sendKeys("19");
+            System.out.println("Birth Date Entered");
+
+            questionLocators.birthMonth.sendKeys("05");
+            System.out.println("Birth Month Entered");
+
+            questionLocators.birthYear.sendKeys("1995");
+            System.out.println("Birth Year Entered");
+            Thread.sleep(100);
+        } catch (NoSuchElementException e) {
+
+            present = false;
+
         }
 
     }

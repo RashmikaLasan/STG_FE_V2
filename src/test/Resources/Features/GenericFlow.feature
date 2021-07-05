@@ -164,3 +164,5 @@ Feature: Do the Generic search and complete the booking
       | FutureDateCount | supplierCode | City | ChoiceKey                            | Pax     | childDob | seniorDob | currency | bookingProductType | ProductName                                                                    |
       | 60              | VT16052P827  | CMB  | GEN~0~TG1~VT35~VT16052P827~16052P827 | 1-0-0-0 |          |           | GBP      | experiences        | Colombo Airport (CMB) to Santani Wellness Resort & Spa, Kandy Private Transfer |
 
+#      | FutureDateCount  | supplierCode | City | ChoiceKey                                | Pax     | childDob | seniorDob | currency | bookingProductType | ProductName                                              |
+#      | 124              | VT10392P1    | PAR  | GEN~0~TG42__11:30~VT15~VT10392P1~10392P1 | 1-0-0-0 |          |           | GBP      | experiences        | Private Shopping Walking Tour for Teenage Girls in Paris |

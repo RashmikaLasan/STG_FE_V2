@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b61c30da-721c-43b5-8649-3211c1a6ee93" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageActions/QuestionFillActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageLocators/QuestionLocators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PageActions/CheckOutPageActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageActions/CheckOutPageActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageActions/QuestionFillActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageActions/QuestionFillActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageLocators/QuestionLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageLocators/QuestionLocators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/GenericFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/GenericFlow.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,8 +22,20 @@
       <file leaf-file-name="GenericFlow.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/Resources/Features/GenericFlow.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="159" column="41" selection-start-line="159" selection-start-column="41" selection-end-line="159" selection-end-column="41" />
+            <state relative-caret-position="64">
+              <caret line="147" column="24" selection-start-line="147" selection-start-column="24" selection-end-line="147" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenericFlowSteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/GenericFlowSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="101" column="33" selection-start-line="101" selection-start-column="33" selection-end-line="101" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -33,17 +43,17 @@
       <file leaf-file-name="CheckOutPageActions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PageActions/CheckOutPageActions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-10">
-              <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
+            <state relative-caret-position="171">
+              <caret line="153" column="37" selection-start-line="153" selection-start-column="37" selection-end-line="153" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuestionLocators.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QuestionLocators.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PageLocators/QuestionLocators.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
+            <state relative-caret-position="123">
+              <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,14 +61,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuestionFillActions.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="QuestionFillActions.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/PageActions/QuestionFillActions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="136" column="33" selection-start-line="136" selection-start-column="16" selection-end-line="136" selection-end-column="33" />
+            <state relative-caret-position="172">
+              <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SeleniumDriver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/SeleniumDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -74,8 +93,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ProductName</find>
-      <find>extent-config.xml</find>
       <find>Drivers</find>
       <find>/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/span[1]</find>
       <find>//html/body/div[2]/div/div[2]/div/div[4]/div/div/div/div[2]/span</find>
@@ -98,6 +115,14 @@
       <find>Navigated to the Confirmation Page</find>
       <find>ques</find>
       <find>//label[contains(text(),'Arrival Airline')]</find>
+      <find>//label[contains(text(),'Date of Birth')]</find>
+      <find>France</find>
+      <find>try</find>
+      <find>if</find>
+      <find>addPassportNumber</find>
+      <find>93</find>
+      <find>9314</find>
+      <find>N93</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -123,10 +148,10 @@
         <option value="$PROJECT_DIR$/src/main/java/PageActions/QuestionFill.java" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/GenericFlowSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PageActions/QuestionFillActions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PageActions/CheckOutPageActions.java" />
-        <option value="$PROJECT_DIR$/src/test/Resources/Features/GenericFlow.feature" />
         <option value="$PROJECT_DIR$/src/main/java/PageLocators/QuestionLocators.java" />
+        <option value="$PROJECT_DIR$/src/test/Resources/Features/GenericFlow.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/PageActions/CheckOutPageActions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PageActions/QuestionFillActions.java" />
       </list>
     </option>
   </component>
@@ -153,7 +178,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="800" />
     <option name="width" value="1130" />
     <option name="height" value="1050" />
@@ -165,9 +190,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,10 +298,35 @@
               <item name="Resources" type="462c0819:PsiDirectoryNode" />
               <item name="Features" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CT_STG_FE_V2_Flow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="CT_STG_FE_V2_Flow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.seleniumhq.selenium:selenium-support:3.141.59" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="CT_STG_FE_V2_Flow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.seleniumhq.selenium:selenium-support:3.141.59" type="70bed36:NamedLibraryElementNode" />
+              <item name="selenium-support-3.141.59.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CT_STG_FE_V2_Flow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.seleniumhq.selenium:selenium-support:3.141.59" type="70bed36:NamedLibraryElementNode" />
+              <item name="selenium-support-3.141.59.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -474,38 +521,45 @@
       <option name="project" value="LOCAL" />
       <updated>1625414409920</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Booking Question Java">
+      <created>1625434399638</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1625434399638</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunCuke - 2021.07.04 at 23h 58m 01s.xml">
+    <history-entry file="RunCuke - 2021.07.05 at 22h 50m 14s.xml">
       <configuration name="RunCuke" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RunCuke - 2021.07.04 at 23h 59m 06s.xml">
+    <history-entry file="RunCuke - 2021.07.05 at 22h 52m 24s.xml">
       <configuration name="RunCuke" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RunCuke - 2021.07.05 at 00h 02m 26s.xml">
+    <history-entry file="RunCuke - 2021.07.05 at 23h 08m 10s.xml">
       <configuration name="RunCuke" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RunCuke - 2021.07.05 at 01h 55m 47s.xml">
+    <history-entry file="RunCuke - 2021.07.05 at 23h 14m 35s.xml">
       <configuration name="RunCuke" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RunCuke - 2021.07.05 at 01h 58m 45s.xml">
+    <history-entry file="RunCuke - 2021.07.05 at 23h 30m 46s.xml">
       <configuration name="RunCuke" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RunCuke - 2021.07.05 at 02h 02m 27s.xml">
+    <history-entry file="RunCuke - 2021.07.05 at 23h 32m 51s.xml">
       <configuration name="RunCuke" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RunCuke - 2021.07.05 at 02h 24m 18s.xml">
+    <history-entry file="RunCuke - 2021.07.05 at 23h 36m 05s.xml">
       <configuration name="RunCuke" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RunCuke - 2021.07.05 at 02h 28m 44s.xml">
+    <history-entry file="RunCuke - 2021.07.05 at 23h 38m 40s.xml">
       <configuration name="RunCuke" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RunCuke - 2021.07.05 at 02h 37m 41s.xml">
+    <history-entry file="RunCuke - 2021.07.05 at 23h 39m 57s.xml">
       <configuration name="RunCuke" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RunCuke - 2021.07.05 at 02h 56m 25s.xml">
+    <history-entry file="RunCuke - 2021.07.05 at 23h 43m 40s.xml">
       <configuration name="RunCuke" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -530,14 +584,15 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50201344" side_tool="true" weight="0.32842416" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.17417061" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.1738255" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49798658" weight="0.32842416" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32452276" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32452276" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49932885" weight="0.3298969" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17417061" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17890996" />
       <window_info anchor="bottom" id="SonarLint" order="8" sideWeight="0.49731544" weight="0.32892805" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32695138" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -549,34 +604,33 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32695138" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32547864" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49798658" weight="0.32842416" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="SonarLint" order="11" sideWeight="0.49731544" weight="0.3298969" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32695138" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09865772" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.3298969" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Adb Input" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.3298969" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32547864" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32695138" />
       <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39027983" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49932885" weight="0.3298969" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50201344" side_tool="true" weight="0.32842416" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49798658" weight="0.32842416" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.17417061" />
       <window_info id="Favorites" order="6" side_tool="true" />
@@ -624,72 +678,66 @@
     <MESSAGE value="Hotel Flow Labels Change" />
     <MESSAGE value="Hotel Flow Promotion Flow" />
     <MESSAGE value="Changed Coding Standards and SonarLint" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed Coding Standards and SonarLint" />
+    <MESSAGE value="Booking Question Java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Booking Question Java" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="116" />
+      <option name="time" value="152" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>questionLocators.passportNationality.isDisplayed()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>questionLocators.passportExpiryDate.isDisplayed()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
       <expression>
         <expression-string>questionLocators.passportNumber.isDisplayed()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>questionLocators.language.isDisplayed()</expression-string>
+        <expression-string>(questionLocators.passportNumber.isDisplayed())</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>questionLocators.YourDetails.isDisplayed()</expression-string>
+        <expression-string>if (questionLocators.passportNumber.isDisplayed()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>checkOutPageLocators.Language1.isDisplayed()</expression-string>
+        <expression-string>if (questionLocators.passportNumber.isDisplayed())</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>confirmPageLocators.Paid.getText()</expression-string>
+        <expression-string>(questionLocators.passportNumber.isDisplayed()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>Assert.assertEquals(ConfirmCity, HTLaddress)</expression-string>
+        <expression-string>(questionLocators.language.isDisplayed())</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>ConfirmCity</expression-string>
+        <expression-string>(questionLocators.BirthDateLabel.isDisplayed())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>questionLocators.BirthDateLabel.isDisplayed()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>questionLocators.passportNationality.isDisplayed()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageActions/ConfirmPageActions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="71" column="43" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Steps/GenericFlowSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2414">
@@ -925,13 +973,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/AfterAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/Extent_Reports/27062021_081025.html" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Steps/BeforeAction.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -951,13 +992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="89" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/SeleniumDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -982,9 +1016,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -998,16 +1029,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/GenericFlowSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="101" column="36" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Runner/RunCuke.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -1015,34 +1036,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageActions/QuestionFillActions.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59-sources.jar!/org/openqa/selenium/support/FindBy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="136" column="33" selection-start-line="136" selection-start-column="16" selection-end-line="136" selection-end-column="33" />
+        <state relative-caret-position="218">
+          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/SeleniumDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/AfterAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Resources/Features/GenericFlow.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="147" column="24" selection-start-line="147" selection-start-column="24" selection-end-line="147" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/GenericFlowSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="101" column="33" selection-start-line="101" selection-start-column="33" selection-end-line="101" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Resources/Features/GenericFlow.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="159" column="41" selection-start-line="159" selection-start-column="41" selection-end-line="159" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PageActions/CheckOutPageActions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
+        <state relative-caret-position="171">
+          <caret line="153" column="37" selection-start-line="153" selection-start-column="37" selection-end-line="153" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PageLocators/QuestionLocators.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
+        <state relative-caret-position="123">
+          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageActions/QuestionFillActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
