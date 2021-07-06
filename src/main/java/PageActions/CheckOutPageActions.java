@@ -118,6 +118,24 @@ public class CheckOutPageActions {
 
     }
 
+    public void secondRoomPaxName(String firstName, String lastName) throws InterruptedException {
+
+        Thread.sleep(1000);
+        checkOutPageLocators.title2.click();
+        Thread.sleep(1000);
+        checkOutPageLocators.titleSelect2.click();
+        System.out.println("Passenger Title Select for Second Room Passenger");
+
+        checkOutPageLocators.fName2.sendKeys(firstName);
+        Thread.sleep(1500);
+        System.out.println("First Name Entered for Second Room Passenger");
+        checkOutPageLocators.lName2.click();
+        checkOutPageLocators.lName2.sendKeys(lastName);
+        System.out.println("Last Name Entered for Second Room Passenger");
+        Thread.sleep(2000);
+
+    }
+
     public void PassengerEmail(String EmailAddress) {
 
         checkOutPageLocators.Email1.click();
@@ -228,7 +246,7 @@ public class CheckOutPageActions {
 
     public void PaxCount() {
 
-        String Pax_Count = checkOutPageLocators.PaxCount1.getText();
+        String Pax_Count = checkOutPageLocators.paxCount1.getText();
         PaxNo = Pax_Count.split(":")[1];
         System.out.println("Pax Count is: " + PaxNo);
 

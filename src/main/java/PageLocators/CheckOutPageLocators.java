@@ -9,14 +9,26 @@ public class CheckOutPageLocators {
     @FindBy(how = How.CSS, using = ".dCIRwY .sc-bBjRSN")
     public WebElement Title1;
 
+    @FindBy(how = How.XPATH, using = "//*[contains(@class, 'iJGVTQ')]/div/form/div/div[3]/div/div/div/div/div/div/div/div/button")
+    public WebElement title2;
+
     @FindBy(how = How.XPATH, using = "//span[text()='Mr']")
     public WebElement TitleSelect1;
+
+    @FindBy(how = How.XPATH, using = "//*[contains(@class, 'btdiGj')]//span[text()='Mr']")
+    public WebElement titleSelect2;
 
     @FindBy(how = How.XPATH, using = "//input[@id='firstName']")
     public WebElement FName1;
 
+    @FindBy(how = How.ID, using = "guests[0].firstName")
+    public WebElement fName2;
+
     @FindBy(how = How.XPATH, using = "//input[@id='lastName']")
     public WebElement LName1;
+
+    @FindBy(how = How.ID, using = "guests[0].lastName")
+    public WebElement lName2;
 
     @FindBy(how = How.XPATH, using = "//input[@id='email']")
     public WebElement Email1;
@@ -97,6 +109,6 @@ public class CheckOutPageLocators {
     public WebElement CheckOut1;
 
     @FindBy(how = How.CSS, using = ".OverviewPanelstyled__Main-sc-33lk3x-3 > div:nth-of-type(2) > span:nth-of-type(4)")
-    public WebElement PaxCount1;
+    public WebElement paxCount1;
 
 }

@@ -7,6 +7,7 @@ import Utilities.TimeHandler;
 import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
 
 public class HotelFlowSteps {
 
@@ -106,4 +107,10 @@ public class HotelFlowSteps {
 
     }
 
+    @Then("^User fill the Second Room Passenger Details where First Name as \"([^\"]*)\" and Last Name as \"([^\"]*)\"$")
+    public void userFillTheSecondRoomPassengerDetailsWhereFirstNameAsAndLastNameAs(String firstName, String secondName) throws Throwable {
+
+        checkOutPageActions.secondRoomPaxName(firstName, secondName);
+
+    }
 }
