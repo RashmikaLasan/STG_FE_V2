@@ -9,16 +9,16 @@ import static PageActions.CheckOutPageActions.*;
 
 public class ConfirmPageActions {
 
-    public String ConfirmProductName;
-    public String ConfirmDate;
-    public String ConfirmGuest;
-    public String ConfirmLocation;
+    public String confirmProductName;
+    public String confirmDate;
+    public String confirmGuest;
+    public String confirmLocation;
     public String bookingId;
-    public String Paid;
+    public String paid;
     public boolean present;
-    public String CheckInDateConfirm;
-    public String CheckOutDateConfirm;
-    public String ConfirmPaxHTL;
+    public String checkInDateConfirm;
+    public String checkOutDateConfirm;
+    public String confirmPaxHTL;
     public String confirmCity;
     ConfirmPageLocators confirmPageLocators;
 
@@ -48,50 +48,50 @@ public class ConfirmPageActions {
 
     public void productNameAssertion() {
 
-        ConfirmProductName = confirmPageLocators.productName.getText();
-        Assert.assertEquals(ConfirmProductName, ProductTitle);
+        confirmProductName = confirmPageLocators.productName.getText();
+        Assert.assertEquals(confirmProductName, productTitle);
         System.out.println("Confirm Product Name Assertion Success");
 
     }
 
     public void hotelNameAssertion() {
 
-        ConfirmProductName = confirmPageLocators.productName.getText();
-        Assert.assertEquals(ConfirmProductName, HotelTitle);
-        System.out.println("Confirm Hotel Name Assertion Success and Hotel Name is: " + ConfirmProductName);
+        confirmProductName = confirmPageLocators.productName.getText();
+        Assert.assertEquals(confirmProductName, hotelTitle);
+        System.out.println("Confirm Hotel Name Assertion Success and Hotel Name is: " + confirmProductName);
 
     }
 
     public void checkInDateAssertion() {
 
-        CheckInDateConfirm = confirmPageLocators.checkInDate.getText();
-        Assert.assertEquals(CheckInDateConfirm, checkInDate);
-        System.out.println("CheckIn Date Assertion Success, CheckIn Date is: " + CheckInDateConfirm);
+        checkInDateConfirm = confirmPageLocators.checkInDate.getText();
+        Assert.assertEquals(checkInDateConfirm, checkInDate);
+        System.out.println("CheckIn Date Assertion Success, CheckIn Date is: " + checkInDateConfirm);
 
     }
 
     public void checkOutDateAssertion() {
 
-        CheckOutDateConfirm = confirmPageLocators.checkOutDate.getText();
-        Assert.assertEquals(CheckOutDateConfirm, checkOutDate);
-        System.out.println("CheckOut Date Assertion Success and CheckOut Date is " + CheckOutDateConfirm);
+        checkOutDateConfirm = confirmPageLocators.checkOutDate.getText();
+        Assert.assertEquals(checkOutDateConfirm, checkOutDate);
+        System.out.println("CheckOut Date Assertion Success and CheckOut Date is " + checkOutDateConfirm);
 
     }
 
     public void htlPaxAssertion() {
 
         String hTLPAX = confirmPageLocators.hTLPaxCount.getText();
-        ConfirmPaxHTL = hTLPAX.split(":")[1];
-        Assert.assertEquals(ConfirmPaxHTL, paxNo);
-        System.out.println("Confirm Guest Assertion Success for Hotels and Pax Combination is: " + ConfirmPaxHTL);
+        confirmPaxHTL = hTLPAX.split(":")[1];
+        Assert.assertEquals(confirmPaxHTL, paxNo);
+        System.out.println("Confirm Guest Assertion Success for Hotels and Pax Combination is: " + confirmPaxHTL);
 
     }
 
     public void dateAssertion() {
 
         String dateAll = confirmPageLocators.date.getText();
-        ConfirmDate = dateAll.split(":")[1];
-        Assert.assertEquals(ConfirmDate, DepartureDate);
+        confirmDate = dateAll.split(":")[1];
+        Assert.assertEquals(confirmDate, departureDate);
         System.out.println("Departure Date Assertion Success");
 
     }
@@ -99,8 +99,8 @@ public class ConfirmPageActions {
     public void guestAssertion() {
 
         String guest = confirmPageLocators.guests.getText();
-        ConfirmGuest = guest.split(":")[1];
-        Assert.assertEquals(ConfirmGuest, GuestCount);
+        confirmGuest = guest.split(":")[1];
+        Assert.assertEquals(confirmGuest, guestCount);
         System.out.println("Confirm Guest Assertion Success");
 
     }
@@ -108,8 +108,8 @@ public class ConfirmPageActions {
     public void locationAssertion() {
 
         String loc = confirmPageLocators.location.getText();
-        ConfirmLocation = loc.split(":")[1];
-        Assert.assertEquals(ConfirmLocation, Location);
+        confirmLocation = loc.split(":")[1];
+        Assert.assertEquals(confirmLocation, location);
         System.out.println("Location Assertion Assertion Success");
 
     }
@@ -127,9 +127,9 @@ public class ConfirmPageActions {
 
         Thread.sleep(2000);
         String totPaid = confirmPageLocators.paid.getText();
-        Paid = totPaid.split("£")[1];
-        Assert.assertEquals(Paid, FullPrice);
-        System.out.println("Price Assertion Success and Paid Amount is: " + Paid);
+        paid = totPaid.split("£")[1];
+        Assert.assertEquals(paid, fullPrice);
+        System.out.println("Price Assertion Success and Paid Amount is: " + paid);
 
     }
 
