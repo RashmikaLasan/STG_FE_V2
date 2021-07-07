@@ -1,7 +1,7 @@
 Feature: Do the Generic search and complete the booking
 
 
-  @genpromono
+  @genpromono @gen @all
   Scenario Outline: 1.1 Validate Generic Flow for 1 Adult without Promo Code for Refundable Product
 
     Given user set the booking parameter checkIn date as "<FutureDateCount>" Supplier Code as "<supplierCode>" City as "<City>" ChoiceKey as "<ChoiceKey>" pax as "<Pax>" ChildDoB as "<childDob>" seniorDob as "<seniorDob>" currency as "<currency>" bookingProductType as "<bookingProductType>"
@@ -42,7 +42,7 @@ Feature: Do the Generic search and complete the booking
 
 #    --------------------------------------------End----------------------------------------------------------------
 
-  @genpromoyes
+  @genpromoyes @gen @all
   Scenario Outline: 1.2 Validate Generic Flow for 1 Adult without Promo Code for Refundable Product
 
     Given user set the booking parameter checkIn date as "<FutureDateCount>" Supplier Code as "<supplierCode>" City as "<City>" ChoiceKey as "<ChoiceKey>" pax as "<Pax>" ChildDoB as "<childDob>" seniorDob as "<seniorDob>" currency as "<currency>" bookingProductType as "<bookingProductType>"
@@ -83,7 +83,7 @@ Feature: Do the Generic search and complete the booking
 #------------------------------------------------------------End--------------------------------------------------------------------------------
 
 
-  @gencancel
+  @gencancel @gen @all
   Scenario Outline: 1.3 Validate Generic Flow for 1 Adult without Promo Code for Refundable Product
 
     Given user set the booking parameter checkIn date as "<FutureDateCount>" Supplier Code as "<supplierCode>" City as "<City>" ChoiceKey as "<ChoiceKey>" pax as "<Pax>" ChildDoB as "<childDob>" seniorDob as "<seniorDob>" currency as "<currency>" bookingProductType as "<bookingProductType>"
@@ -128,8 +128,8 @@ Feature: Do the Generic search and complete the booking
     #------------------------------------------------------------End--------------------------------------------------------------------------------
 
 
-  @genbookingques
-  Scenario Outline: 1.3 Validate Generic Flow for 1 Adult without Promo Code for Refundable Product
+  @genbookingques @gen @all
+  Scenario Outline: 1.4 Validate Generic Flow for 1 Adult without Promo Code for Refundable Product
 
     Given user set the booking parameter checkIn date as "<FutureDateCount>" Supplier Code as "<supplierCode>" City as "<City>" ChoiceKey as "<ChoiceKey>" pax as "<Pax>" ChildDoB as "<childDob>" seniorDob as "<seniorDob>" currency as "<currency>" bookingProductType as "<bookingProductType>"
     When Checkout page should be loaded

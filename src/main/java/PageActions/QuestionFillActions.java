@@ -4,8 +4,6 @@ import PageLocators.QuestionLocators;
 import Utilities.SeleniumDriver;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.support.PageFactory;
-
-import javax.swing.text.Utilities;
 import java.util.concurrent.TimeUnit;
 
 public class QuestionFillActions {

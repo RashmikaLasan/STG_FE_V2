@@ -25,7 +25,7 @@ public class CheckOutPageLocators {
     public WebElement fName2;
 
     @FindBy(how = How.XPATH, using = "//input[@id='lastName']")
-    public WebElement LName1;
+    public WebElement lName1;
 
     @FindBy(how = How.ID, using = "guests[0].lastName")
     public WebElement lName2;

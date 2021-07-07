@@ -1,7 +1,7 @@
 Feature: Do the Hotel search and complete the booking
 
 
-  @Htlnopromo
+  @Htlnopromo @htl @all
   Scenario Outline: 1.1 Validate HTL Flow for 1 Adult without Promo Code for Refundable Product
 
     Given user set the booking parameter checkIn date as "<FutureDateCount>" Supplier Code as "<supplierCode>" City as "<City>" ChoiceKey as "<ChoiceKey>" pax as "<Pax>" ChildDoB as "<childDob>" Night Count as "<Nights>" currency as "<currency>" bookingProductType as "<bookingProductType>"
@@ -45,7 +45,7 @@ Feature: Do the Hotel search and complete the booking
 
 
 
-  @Htlpromo1
+  @Htlpromo1 @htl @all
   Scenario Outline: 1.2 Validate HTL Flow for 1 Adult with Promo Code for Refundable Product
 
     Given user set the booking parameter checkIn date as "<FutureDateCount>" Supplier Code as "<supplierCode>" City as "<City>" ChoiceKey as "<ChoiceKey>" pax as "<Pax>" ChildDoB as "<childDob>" Night Count as "<Nights>" currency as "<currency>" bookingProductType as "<bookingProductType>"
@@ -92,8 +92,8 @@ Feature: Do the Hotel search and complete the booking
 
 
 
-  @HtlAdultChild
-  Scenario Outline: 1.2 Validate HTL Flow for 1 Adult and 1 Child with Promo Code for Refundable Product
+  @HtlAdultChild @htl @all
+  Scenario Outline: 1.3 Validate HTL Flow for 1 Adult and 1 Child with Promo Code for Refundable Product
 
     Given user set the booking parameter checkIn date as "<FutureDateCount>" Supplier Code as "<supplierCode>" City as "<City>" ChoiceKey as "<ChoiceKey>" pax as "<Pax>" ChildDoB as "<childDob>" Night Count as "<Nights>" currency as "<currency>" bookingProductType as "<bookingProductType>"
     When Checkout page should be loaded
@@ -138,8 +138,8 @@ Feature: Do the Hotel search and complete the booking
     #    -------------------------------------End-------------------------------------------------------------------------------------
 
 
-  @Htlcancel
-  Scenario Outline: 1.2 Validate HTL Flow for 1 Adult with Promo Code for Refundable Product
+  @Htlcancel @htl @all
+  Scenario Outline: 1.4 Validate HTL Flow for 1 Adult with Promo Code for Refundable Product
 
     Given user set the booking parameter checkIn date as "<FutureDateCount>" Supplier Code as "<supplierCode>" City as "<City>" ChoiceKey as "<ChoiceKey>" pax as "<Pax>" ChildDoB as "<childDob>" Night Count as "<Nights>" currency as "<currency>" bookingProductType as "<bookingProductType>"
     When Checkout page should be loaded

@@ -111,8 +111,8 @@ public class CheckOutPageActions {
         checkOutPageLocators.fName1.sendKeys(firstName);
         Thread.sleep(1500);
         System.out.println("First Name Entered");
-        checkOutPageLocators.LName1.click();
-        checkOutPageLocators.LName1.sendKeys(lastName);
+        checkOutPageLocators.lName1.click();
+        checkOutPageLocators.lName1.sendKeys(lastName);
         System.out.println("Last Name Entered");
         Thread.sleep(2000);
 

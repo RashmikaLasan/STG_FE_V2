@@ -1,7 +1,7 @@
 Feature: Do the Multi Room Hotel search and complete the booking
 
 
-  @Htlmulti
+  @Htlmulti @htl
   Scenario Outline: 1.1 Validate Multi Room HTL Flow for 4 Adults 1 Child without Promo Code for Refundable Hotels
 
     Given user set the booking parameter checkIn date as "<FutureDateCount>" Supplier Code as "<supplierCode>" City as "<City>" ChoiceKey as "<ChoiceKey>" pax as "<Pax>" ChildDoB as "<childDob>" Night Count as "<Nights>" currency as "<currency>" bookingProductType as "<bookingProductType>"
