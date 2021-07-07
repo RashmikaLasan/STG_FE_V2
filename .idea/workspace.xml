@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b61c30da-721c-43b5-8649-3211c1a6ee93" name="Default" comment="">
+    <list default="true" id="b61c30da-721c-43b5-8649-3211c1a6ee93" name="Default" comment="TestNG Added">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageActions/ConfirmPageActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageActions/ConfirmPageActions.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,24 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HotelFlow-RoomWise.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/Resources/Features/HotelFlow-RoomWise.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GenericFlow.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/Resources/Features/GenericFlow.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="131" column="23" selection-start-line="131" selection-start-column="23" selection-end-line="131" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -43,14 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConfirmPageActions.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PageActions/ConfirmPageActions.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2179">
-              <caret line="131" column="77" selection-start-line="131" selection-start-column="77" selection-end-line="131" selection-end-column="77" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-527">
+              <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -58,17 +37,8 @@
       <file leaf-file-name="RunCuke.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Runner/RunCuke.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HotelFlow.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/Resources/Features/HotelFlow.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2397">
-              <caret line="141" column="23" selection-start-line="141" selection-start-column="23" selection-end-line="141" selection-end-column="23" />
+            <state relative-caret-position="646">
+              <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -84,8 +54,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>//html/body/div[2]/div/div[2]/div/div[4]/div/div/div/div[2]/span</find>
-      <find>/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]}</find>
       <find>/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]</find>
       <find>loc</find>
       <find>GuessCount</find>
@@ -114,6 +82,8 @@
       <find>N93</find>
       <find>room</find>
       <find>lang</find>
+      <find>prop</find>
+      <find>surefire</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -130,7 +100,6 @@
         <option value="$PROJECT_DIR$/src/test/Resources/Features_GEN/GenericNoPromo.feature" />
         <option value="$PROJECT_DIR$/src/main/java/Utilities/SeleniumDriver.java" />
         <option value="$PROJECT_DIR$/src/test/Resources/Features/GenericNoPromo.feature" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/PageActions/QuestionFill.java" />
         <option value="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" />
         <option value="$PROJECT_DIR$/src/main/java/PageLocators/ConfirmPageLocators.java" />
@@ -145,6 +114,7 @@
         <option value="$PROJECT_DIR$/src/test/Resources/Features/GenericFlow.feature" />
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/java/PageActions/ConfirmPageActions.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -291,6 +261,11 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="Resources" type="462c0819:PsiDirectoryNode" />
               <item name="Features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CT_STG_FE_V2_Flow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CT_STG_FE_V2_Flow" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -562,13 +537,17 @@
       <option name="project" value="LOCAL" />
       <updated>1625681189020</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="TestNG Added">
+      <created>1625683904212</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1625683904212</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunCuke - 2021.07.07 at 01h 37m 28s.xml">
-      <configuration name="RunCuke" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="RunCuke - 2021.07.07 at 01h 40m 04s.xml">
       <configuration name="RunCuke" configurationId="TestNG" />
     </history-entry>
@@ -596,6 +575,9 @@
     <history-entry file="E__LearningMe_CT_STG_FE_V2_Flow_testng_xml - 2021.07.07 at 23h 44m 52s.xml">
       <configuration name="E:/LearningMe/CT_STG_FE_V2_Flow/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="E__LearningMe_CT_STG_FE_V2_Flow_testng_xml - 2021.07.08 at 00h 43m 32s.xml">
+      <configuration name="E:/LearningMe/CT_STG_FE_V2_Flow/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -608,6 +590,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.3298969" />
@@ -617,7 +600,7 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50201344" side_tool="true" weight="0.32842416" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.1738255" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.1738255" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49798658" weight="0.3240059" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3240059" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49932885" weight="0.3298969" />
@@ -686,7 +669,8 @@
     <MESSAGE value="Multi Room Hotel Flow" />
     <MESSAGE value="Sonar Lint Issues Fixed" />
     <MESSAGE value="Tags Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tags Added" />
+    <MESSAGE value="TestNG Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestNG Added" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -745,13 +729,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/AfterAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Resources/Features/GenericFlow.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -971,13 +948,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59-sources.jar!/org/openqa/selenium/support/FindBy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
@@ -1078,12 +1048,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Runner/RunCuke.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageActions/ConfirmPageActions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="2179">
+          <caret line="131" column="77" selection-start-line="131" selection-start-column="77" selection-end-line="131" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Runner/RunCuke.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/Extent_Reports/08072021_124140.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1092,13 +1075,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageActions/ConfirmPageActions.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2179">
-          <caret line="131" column="77" selection-start-line="131" selection-start-column="77" selection-end-line="131" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-527">
+          <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
         </state>
       </provider>
     </entry>

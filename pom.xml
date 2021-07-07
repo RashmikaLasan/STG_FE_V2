@@ -50,7 +50,7 @@
                 <configuration>
                     <suiteXmlFiles>
                         <!-- pass testng.xml files as argument from command line -->
-                        <suiteXmlFile>SOME_DEFAULT_VALUE.xml</suiteXmlFile>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
