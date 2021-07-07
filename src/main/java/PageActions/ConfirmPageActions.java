@@ -127,7 +127,7 @@ public class ConfirmPageActions {
 
         Thread.sleep(2000);
         String totPaid = confirmPageLocators.paid.getText();
-        paid = totPaid.split("£")[1];
+        paid = totPaid.split("£")[0];
         Assert.assertEquals(paid, fullPrice);
         System.out.println("Price Assertion Success and Paid Amount is: " + paid);
 

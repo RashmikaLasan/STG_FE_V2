@@ -15,7 +15,7 @@ public class CheckOutPageActions {
     public static String departureDate;
     public static String guestCount;
     public static String location;
-    public static String subTotal;
+    public static String subPrice;
     public static String fullPrice;
     public static String hotelTitle;
     public static String checkInDate;
@@ -87,15 +87,15 @@ public class CheckOutPageActions {
     public void subPrice() {
 
         String subTot = checkOutPageLocators.subPrice1.getText();
-        subTotal = subTot.split("£")[1];
-        System.out.println("Sub Total is: " + subTotal);
+        subPrice = subTot.split("£")[0];
+        System.out.println("Sub Total is: " + subPrice);
 
     }
 
     public void fullTotal() {
 
         String fullTot = checkOutPageLocators.totalPrice1.getText();
-        fullPrice = fullTot.split("£")[1];
+        fullPrice = fullTot.split("£")[0];
         System.out.println("Full Total is: " + fullPrice);
 
     }
