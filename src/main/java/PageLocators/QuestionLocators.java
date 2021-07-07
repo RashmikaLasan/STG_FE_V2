@@ -73,7 +73,7 @@ public class QuestionLocators {
 
 
     @FindBy(how = How.XPATH, using = "//label[normalize-space()='Date of Birth']")
-    public WebElement BirthDateLabel;
+    public WebElement birthDateLabel;
 
     @FindBy(how = How.XPATH, using = "//*[@name='undefined.day']")
     public WebElement birthDay;

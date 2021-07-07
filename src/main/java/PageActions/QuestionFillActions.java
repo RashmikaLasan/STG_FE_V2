@@ -162,7 +162,7 @@ public class QuestionFillActions {
 
         try {
 
-            questionLocators.BirthDateLabel.isDisplayed();
+            questionLocators.birthDateLabel.isDisplayed();
 
             System.out.println("Birth Day Element is Visible");
             questionLocators.birthDay.sendKeys("19");
