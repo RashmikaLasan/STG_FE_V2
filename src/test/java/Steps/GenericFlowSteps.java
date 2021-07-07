@@ -28,7 +28,7 @@ public class GenericFlowSteps {
     @When("^Checkout page should be loaded$")
     public void checkoutPageShouldBeLoaded() {
 
-        checkOutPageActions.LandedPage();
+        checkOutPageActions.landedPage();
 
 
     }
@@ -36,70 +36,70 @@ public class GenericFlowSteps {
     @And("^check the Product Name is Correct as \"([^\"]*)\"$")
     public void checkTheProductNameIsCorrectAs(String PName) {
 
-        checkOutPageActions.ProductName(PName);
+        checkOutPageActions.productName(PName);
 
     }
 
     @And("^check the Travelling Date is Correct$")
     public void checkTheTravellingDateIsCorrect() {
 
-        checkOutPageActions.DepartureDate();
+        checkOutPageActions.departureDate();
 
     }
 
     @And("^check the Travelling Location is Correct$")
     public void checkTheTravellingLocationIsCorrect() {
 
-        checkOutPageActions.Location();
+        checkOutPageActions.location();
     }
 
     @And("^check the Guest Count is Correct$")
     public void checkTheGuestCountIsCorrect() {
 
-        checkOutPageActions.GuestCount();
+        checkOutPageActions.guestCount();
     }
 
     @And("^check the Sub Price of the Booking$")
     public void checkTheSubPriceOfTheBooking() {
 
-        checkOutPageActions.SubPrice();
+        checkOutPageActions.subPrice();
     }
 
     @And("^check the Total Price of the Booking$")
     public void checkTheTotalPriceOfTheBooking() {
 
-        checkOutPageActions.FullTotal();
+        checkOutPageActions.fullTotal();
     }
 
     @Then("^User fill the Passenger Details where First Name as \"([^\"]*)\" and Last Name as \"([^\"]*)\"$")
     public void userFillThePassengerDetailsWhereFirstNameAsAndLastNameAs(String FName, String LName) throws InterruptedException {
 
-        checkOutPageActions.PassengerName(FName, LName);
+        checkOutPageActions.passengerName(FName, LName);
 
     }
 
     @Then("^User fill the email address \"([^\"]*)\"$")
     public void userFillTheEmailAddress(String Email) throws Throwable {
 
-        checkOutPageActions.PassengerEmail(Email);
+        checkOutPageActions.passengerEmail(Email);
     }
 
     @Then("^Scroll Down the Screen$")
     public void scrollDownTheScreen() throws Throwable {
 
-        checkOutPageActions.ScrollDown();
+        checkOutPageActions.scrollDown();
     }
 
 
     @Then("^User fill the Mobile Number as \"([^\"]*)\"$")
     public void userFillTheMobileNumberAs(String PhoneNumber) throws Throwable {
-        checkOutPageActions.PassengerPhone(PhoneNumber);
+        checkOutPageActions.passengerPhone(PhoneNumber);
     }
 
     @Then("^User fill the Booking Questions$")
     public void userFillTheBookingQuestions() throws Throwable {
 
-        checkOutPageActions.BookingQuestion();
+        checkOutPageActions.bookingQuestion();
 
     }
 
@@ -107,13 +107,13 @@ public class GenericFlowSteps {
     public void userFillThePaymentDetails() throws Throwable {
 
 //        checkOutPageActions.ScrollDown();
-        checkOutPageActions.PaymentSection();
+        checkOutPageActions.paymentSection();
     }
 
     @Then("^click Confirm$")
     public void clickConfirm() throws Throwable {
 
-        checkOutPageActions.ConfirmCart();
+        checkOutPageActions.confirmCart();
 
     }
 
@@ -163,7 +163,7 @@ public class GenericFlowSteps {
     @Then("^User Fill the Promo Code as \"([^\"]*)\"$")
     public void userFillThePromoCodeAs(String Promo) throws Throwable {
 
-        checkOutPageActions.PromoApply(Promo);
+        checkOutPageActions.promoApply(Promo);
 
     }
 

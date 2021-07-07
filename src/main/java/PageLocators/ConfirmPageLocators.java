@@ -7,49 +7,49 @@ import org.openqa.selenium.support.How;
 public class ConfirmPageLocators {
 
     @FindBy(how = How.XPATH, using = "//body/div[@id='root']/div[1]/div[2]/div[1]/div[4]/div[1]/div[2]/span[1]")
-    public WebElement ProductName;
+    public WebElement productName;
 
     @FindBy(how = How.XPATH, using = "//body/div[@id='root']/div[1]/div[2]/div[1]/div[4]/div[1]/div[2]/div[1]/span[2]")
-    public WebElement Date;
+    public WebElement date;
 
     @FindBy(how = How.XPATH, using = "//body/div[@id='root']/div[1]/div[2]/div[1]/div[4]/div[1]/div[2]/div[1]/span[3]")
-    public WebElement Guests;
+    public WebElement guests;
 
     @FindBy(how = How.XPATH, using = "//body/div[@id='root']/div[1]/div[2]/div[1]/div[4]/div[1]/div[2]/div[1]/span[4]")
-    public WebElement Location;
+    public WebElement location;
 
     @FindBy(how = How.CSS, using = "div[class='sc-gKAaRy cLccOM'] span[class='sc-bqGGPW hKEfcw']")
-    public WebElement Paid;
+    public WebElement paid;
 
     @FindBy(how = How.XPATH, using = "//body/div[@id='root']/div[1]/div[2]/div[1]/div[3]/div[1]/span[1]")
-    public WebElement BookingID;
+    public WebElement bookingID;
 
     @FindBy(how = How.XPATH, using = "//button[normalize-space()='here']")
-    public WebElement CancelIcon;
+    public WebElement cancelIcon;
 
     @FindBy(how = How.XPATH, using = "//button[normalize-space()='Yes, cancel my booking']")
-    public WebElement CancelBooking;
+    public WebElement cancelBooking;
 
     @FindBy(how = How.XPATH, using = "//span[contains(text(),'Are you sure you want to cancel your booking?')]")
-    public WebElement CancelPopUp;
+    public WebElement cancelPopUp;
 
     @FindBy(how = How.CSS, using = "div[class='sc-gKAaRy duvetK'] div:nth-child(1) span:nth-child(2)")
-    public WebElement CheckInDate;
+    public WebElement checkInDate;
 
     @FindBy(how = How.CSS, using = ".duvetK > div:nth-of-type(2) > span:nth-of-type(2)")
-    public WebElement CheckOutDate;
+    public WebElement checkOutDate;
 
     @FindBy(how = How.XPATH, using = "//span[@data-automation-id='overview-guests-distribution']")
-    public WebElement HTLPaxCount;
+    public WebElement hTLPaxCount;
 
     @FindBy(how = How.XPATH, using = "//div[@class='sc-gKAaRy dIntGq']//div[@class='sc-dlnjwi jSOZQm']")
-    public WebElement HTLRoomCount;
+    public WebElement hTLRoomCount;
 
     @FindBy(how = How.XPATH, using = "//*[contains(@class, 'kMGdow')]//*[contains(@class, 'sc-gKAaRy')]/div[2]")
-    public WebElement HTLRoomType;
+    public WebElement hTLRoomType;
 
     @FindBy(how = How.XPATH, using = "//body/div[@id='root']/div[1]/div[2]/div[1]/div[4]/div[1]/div[2]/div[2]/span[1]")
-    public WebElement HTLCity;
+    public WebElement hTLCity;
 
 
 

@@ -11,19 +11,19 @@ public class CheckOutPageActions {
 
     CheckOutPageLocators checkOutPageLocators;
     public boolean present;
-    public static String ProductTitle;
-    public static String DepartureDate;
-    public static String GuestCount;
-    public static String Location;
-    public static String SubTotal;
-    public static String FullPrice;
-    public static String HotelTitle;
-    public static String CheckInDate;
-    public static String CheckOutDate;
-    public static String HTLaddress;
-    public static String Roomtype;
-    public static String PaxNo;
-    public static String HTLCityLocation;
+    public static String productTitle;
+    public static String departureDate;
+    public static String guestCount;
+    public static String location;
+    public static String subTotal;
+    public static String fullPrice;
+    public static String hotelTitle;
+    public static String checkInDate;
+    public static String checkOutDate;
+    public static String hTLaddress;
+    public static String roomtype;
+    public static String paxNo;
+    public static String hTLCityLocation;
     //    QuestionFillActions fillQuest = new QuestionFillActions();
     QuestionFillActions questionFillActions = new QuestionFillActions();
 
@@ -36,11 +36,11 @@ public class CheckOutPageActions {
     }
 
 
-    public void LandedPage() {
+    public void landedPage() {
 
         try {
 
-            checkOutPageLocators.YourDetails.isDisplayed();
+            checkOutPageLocators.yourDetails.isDisplayed();
             present = true;
             System.out.println("Your Detail Element is Visible");
 
@@ -51,68 +51,68 @@ public class CheckOutPageActions {
     }
 
 
-    public void ProductName(String PName) {
+    public void productName(String pName) {
 
-        ProductTitle = checkOutPageLocators.ProductName1.getText();
-        assertTrue(ProductTitle.contains(PName));
-        System.out.println("Product Title is :" + ProductTitle);
+        productTitle = checkOutPageLocators.productName1.getText();
+        assertTrue(productTitle.contains(pName));
+        System.out.println("Product Title is :" + productTitle);
         System.out.println("Product Title Assertion Success");
 
     }
 
-    public void DepartureDate() {
+    public void departureDate() {
 
-        String FullDate = checkOutPageLocators.Date1.getText();
-        DepartureDate = FullDate.split(":")[1];
-        System.out.println("Departure Date is: " + DepartureDate);
-
-    }
-
-    public void Location() {
-
-        String FullLocation = checkOutPageLocators.Location1.getText();
-        Location = FullLocation.split(":")[1];
-        System.out.println("Location is: " + Location);
+        String fullDate = checkOutPageLocators.date1.getText();
+        departureDate = fullDate.split(":")[1];
+        System.out.println("Departure Date is: " + departureDate);
 
     }
 
-    public void GuestCount() {
+    public void location() {
 
-        String FullGuestCount = checkOutPageLocators.Guests1.getText();
-        GuestCount = FullGuestCount.split(":")[1];
-        System.out.println("Guest Count is: " + GuestCount);
-
-    }
-
-    public void SubPrice() {
-
-        String SubTot = checkOutPageLocators.SubPrice1.getText();
-        SubTotal = SubTot.split("£")[1];
-        System.out.println("Sub Total is: " + SubTotal);
+        String fullLocation = checkOutPageLocators.location1.getText();
+        location = fullLocation.split(":")[1];
+        System.out.println("Location is: " + location);
 
     }
 
-    public void FullTotal() {
+    public void guestCount() {
 
-        String FullTot = checkOutPageLocators.TotalPrice1.getText();
-        FullPrice = FullTot.split("£")[1];
-        System.out.println("Full Total is: " + FullPrice);
+        String fullGuestCount = checkOutPageLocators.guests1.getText();
+        guestCount = fullGuestCount.split(":")[1];
+        System.out.println("Guest Count is: " + guestCount);
 
     }
 
-    public void PassengerName(String FirstName, String LastName) throws InterruptedException {
+    public void subPrice() {
+
+        String subTot = checkOutPageLocators.subPrice1.getText();
+        subTotal = subTot.split("£")[1];
+        System.out.println("Sub Total is: " + subTotal);
+
+    }
+
+    public void fullTotal() {
+
+        String fullTot = checkOutPageLocators.totalPrice1.getText();
+        fullPrice = fullTot.split("£")[1];
+        System.out.println("Full Total is: " + fullPrice);
+
+    }
+
+    public void passengerName(String firstName, String lastName) throws InterruptedException {
 
         Thread.sleep(1000);
-        checkOutPageLocators.Title1.click();
+        checkOutPageLocators.title1.click();
         Thread.sleep(3000);
-        checkOutPageLocators.TitleSelect1.click();
+        checkOutPageLocators.titleSelect1.click();
         System.out.println("Passenger Title Select");
 
-        checkOutPageLocators.FName1.sendKeys(FirstName);
+        checkOutPageLocators.fName1.sendKeys(firstName);
         Thread.sleep(1500);
         System.out.println("First Name Entered");
         checkOutPageLocators.LName1.click();
-        checkOutPageLocators.LName1.sendKeys(LastName);
+        checkOutPageLocators.LName1.sendKeys(lastName);
         System.out.println("Last Name Entered");
         Thread.sleep(2000);
 
@@ -136,38 +136,38 @@ public class CheckOutPageActions {
 
     }
 
-    public void PassengerEmail(String EmailAddress) {
+    public void passengerEmail(String emailAddress) {
 
-        checkOutPageLocators.Email1.click();
-        checkOutPageLocators.Email1.sendKeys(EmailAddress);
+        checkOutPageLocators.email1.click();
+        checkOutPageLocators.email1.sendKeys(emailAddress);
         System.out.println("Email1 Entered");
 
     }
 
-    public void ScrollDown() {
+    public void scrollDown() {
 
         JavascriptExecutor jsx = (JavascriptExecutor) SeleniumDriver.getDriver();
         jsx.executeScript("window.scrollBy(0,250)", "");
         System.out.println("Scroll Down");
-        checkOutPageLocators.SomeWhere.click();
+        checkOutPageLocators.someWhere.click();
 
     }
 
-    public void PassengerPhone(String Phone) throws InterruptedException {
+    public void passengerPhone(String phone) throws InterruptedException {
 
-        checkOutPageLocators.CountryCode1.click();
+        checkOutPageLocators.countryCode1.click();
         Thread.sleep(3000);
         System.out.println("Country Code Drop down Click Success");
-        checkOutPageLocators.CountryCodeSelect1.click();
+        checkOutPageLocators.countryCodeSelect1.click();
         System.out.println("Country Selected Success");
 
-        checkOutPageLocators.MobileNumber1.sendKeys(String.valueOf(Phone));
+        checkOutPageLocators.mobileNumber1.sendKeys(String.valueOf(phone));
         Thread.sleep(3000);
-        checkOutPageLocators.SomeWhere.click();
+        checkOutPageLocators.someWhere.click();
 
     }
 
-    public void BookingQuestion() throws InterruptedException {
+    public void bookingQuestion() throws InterruptedException {
 
         questionFillActions.addPassportNumber();
         questionFillActions.languageSelect();
@@ -180,7 +180,7 @@ public class CheckOutPageActions {
 
     }
 
-    public void PaymentSection() throws InterruptedException {
+    public void paymentSection() throws InterruptedException {
 
 
         JavascriptExecutor jsx = (JavascriptExecutor) SeleniumDriver.getDriver();
@@ -188,67 +188,67 @@ public class CheckOutPageActions {
         SeleniumDriver.getDriver().switchTo().frame(0);
         Thread.sleep(2500);
 
-        checkOutPageLocators.CardNumber.sendKeys("555555555555444425255555555");
+        checkOutPageLocators.cardNumber.sendKeys("555555555555444425255555555");
 
         SeleniumDriver.getDriver().switchTo().defaultContent();
         Thread.sleep(2500);
-        checkOutPageLocators.CardName.sendKeys("LasanRash");
+        checkOutPageLocators.cardName.sendKeys("LasanRash");
         jsx.executeScript("window.scrollBy(0,150)", "");
 
 
     }
 
-    public void ConfirmCart() throws InterruptedException {
+    public void confirmCart() throws InterruptedException {
 
-        checkOutPageLocators.Tick.click();
+        checkOutPageLocators.tick.click();
         System.out.println("Tick the Box");
-        checkOutPageLocators.Confirm.click();
+        checkOutPageLocators.confirm.click();
         System.out.println("Click Confirm Button");
         Thread.sleep(25000);
     }
 
-    public void PromoApply(String Promo) throws InterruptedException {
+    public void promoApply(String promo) throws InterruptedException {
 
         Thread.sleep(2000);
-        checkOutPageLocators.PromoCodeBox.sendKeys(Promo);
-        checkOutPageLocators.PromoCodeApply.click();
+        checkOutPageLocators.promoCodeBox.sendKeys(promo);
+        checkOutPageLocators.promoCodeApply.click();
         System.out.println("Promo Code applied");
         Thread.sleep(2000);
 
     }
 
 
-    public void HotelName(String HName) {
+    public void hotelName(String hName) {
 
-        HotelTitle = checkOutPageLocators.HotelName1.getText();
-        assertTrue(HotelTitle.contains(HName));
-        System.out.println("Hotel Name is :" + HotelTitle);
+        hotelTitle = checkOutPageLocators.hotelName1.getText();
+        assertTrue(hotelTitle.contains(hName));
+        System.out.println("Hotel Name is :" + hotelTitle);
         System.out.println("Hotel Name Assertion Success");
 
     }
 
-    public void HTLAddress1() {
+    public void hTLAddress1() {
 
-        String HTL_Address = checkOutPageLocators.HTLAddress1.getText();
-        HTLaddress = HTL_Address.split(":")[1];
-        System.out.println("HTL Address is: " + HTLaddress);
-
-    }
-
-    public void RoomType() {
-
-        String Room_Type = checkOutPageLocators.RoomType1.getText();
-        Roomtype = Room_Type.split(":")[1];
-        System.out.println("Room Type is: " + Roomtype);
+        String htkAddress = checkOutPageLocators.hTLAddress1.getText();
+        hTLaddress = htkAddress.split(":")[1];
+        System.out.println("HTL Address is: " + hTLaddress);
 
     }
 
+    public void roomType() {
 
-    public void PaxCount() {
+        String roomType = checkOutPageLocators.roomType1.getText();
+        roomtype = roomType.split(":")[1];
+        System.out.println("Room Type is: " + roomtype);
 
-        String Pax_Count = checkOutPageLocators.paxCount1.getText();
-        PaxNo = Pax_Count.split(":")[1];
-        System.out.println("Pax Count is: " + PaxNo);
+    }
+
+
+    public void paxCount() {
+
+        String paxCount = checkOutPageLocators.paxCount1.getText();
+        paxNo = paxCount.split(":")[1];
+        System.out.println("Pax Count is: " + paxNo);
 
     }
 
@@ -261,18 +261,18 @@ public class CheckOutPageActions {
 //    }
 
 
-    public void CheckInDate() {
+    public void checkInDate() {
 
-        CheckInDate = checkOutPageLocators.CheckIn1.getText();
-        System.out.println("CheckIn Date is: " + CheckInDate);
+        checkInDate = checkOutPageLocators.checkIn1.getText();
+        System.out.println("CheckIn Date is: " + checkInDate);
 
     }
 
 
-    public void CheckOutDate() {
+    public void checkOutDate() {
 
-        CheckOutDate = checkOutPageLocators.CheckOut1.getText();
-        System.out.println("CheckOut Date is: " + CheckOutDate);
+        checkOutDate = checkOutPageLocators.checkOut1.getText();
+        System.out.println("CheckOut Date is: " + checkOutDate);
 
     }
 

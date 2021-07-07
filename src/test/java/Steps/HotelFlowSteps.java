@@ -4,7 +4,6 @@ import PageActions.CheckOutPageActions;
 import PageActions.ConfirmPageActions;
 import Utilities.SeleniumDriver;
 import Utilities.TimeHandler;
-import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -30,37 +29,37 @@ public class HotelFlowSteps {
     }
 
     @And("^check the Hotel Name is Correct as \"([^\"]*)\"$")
-    public void checkTheHotelNameIsCorrectAs(String HTLname) {
+    public void checkTheHotelNameIsCorrectAs(String hTLname) {
 
-        checkOutPageActions.HotelName(HTLname);
+        checkOutPageActions.hotelName(hTLname);
 
     }
 
     @And("^check the CheckIn Date is Correct$")
     public void checkTheCheckInDateIsCorrect() throws Throwable {
 
-        checkOutPageActions.CheckInDate();
+        checkOutPageActions.checkInDate();
 
     }
 
     @And("^check the CheckOut Date is Correct$")
     public void checkTheCheckOutDateIsCorrect() {
 
-        checkOutPageActions.CheckOutDate();
+        checkOutPageActions.checkOutDate();
 
     }
 
     @And("^check the Travelling Address is Correct$")
     public void checkTheTravellingAddressIsCorrect() {
 
-        checkOutPageActions.HTLAddress1();
+        checkOutPageActions.hTLAddress1();
 
     }
 
     @And("^check the Pax Count is Correct$")
     public void checkThePaxCountIsCorrect() {
 
-        checkOutPageActions.PaxCount();
+        checkOutPageActions.paxCount();
 
     }
 
@@ -68,7 +67,7 @@ public class HotelFlowSteps {
     @And("^check the Room Type Basis is Correct$")
     public void checkTheRoomTypeBasisIsCorrect() {
 
-        checkOutPageActions.RoomType();
+        checkOutPageActions.roomType();
 
     }
 
