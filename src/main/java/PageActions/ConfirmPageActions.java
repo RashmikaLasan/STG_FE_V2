@@ -1,7 +1,9 @@
 package PageActions;
 
 import PageLocators.ConfirmPageLocators;
+import Utilities.Log;
 import Utilities.SeleniumDriver;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
@@ -22,6 +24,8 @@ public class ConfirmPageActions {
     public String confirmCity;
     ConfirmPageLocators confirmPageLocators;
 
+    final Logger logger = Log.getLogData(Log.class.getName());
+
     public ConfirmPageActions() {
 
         this.confirmPageLocators = new ConfirmPageLocators();
@@ -31,16 +35,16 @@ public class ConfirmPageActions {
 
     public void bookingIdVisible() {
 
-        System.out.println("Waiting till Navigate to the Page");
+        logger.info("Waiting till Navigate to the Page");
         if (confirmPageLocators.bookingID != null) {
 
-            System.out.println("Navigated to the Confirmation Page");
-            System.out.println("Navigated URL is: " + SeleniumDriver.getDriver().getCurrentUrl());
+            logger.info("Navigated to the Confirmation Page");
+            logger.info("Navigated URL is: " + SeleniumDriver.getDriver().getCurrentUrl());
             bookingId = confirmPageLocators.bookingID.getText();
-            System.out.println("BookingId is: " + bookingId);
+            logger.info("BookingId is: " + bookingId);
 
         } else {
-            System.out.println("Not Navigated to the Confirmation Page");
+            logger.info("Not Navigated to the Confirmation Page");
         }
 
     }
@@ -50,7 +54,7 @@ public class ConfirmPageActions {
 
         confirmProductName = confirmPageLocators.productName.getText();
         Assert.assertEquals(confirmProductName, productTitle);
-        System.out.println("Confirm Product Name Assertion Success");
+        logger.info("Confirm Product Name Assertion Success");
 
     }
 
@@ -58,7 +62,7 @@ public class ConfirmPageActions {
 
         confirmProductName = confirmPageLocators.productName.getText();
         Assert.assertEquals(confirmProductName, hotelTitle);
-        System.out.println("Confirm Hotel Name Assertion Success and Hotel Name is: " + confirmProductName);
+        logger.info("Confirm Hotel Name Assertion Success and Hotel Name is: " + confirmProductName);
 
     }
 
@@ -66,7 +70,7 @@ public class ConfirmPageActions {
 
         checkInDateConfirm = confirmPageLocators.checkInDate.getText();
         Assert.assertEquals(checkInDateConfirm, checkInDate);
-        System.out.println("CheckIn Date Assertion Success, CheckIn Date is: " + checkInDateConfirm);
+        logger.info("CheckIn Date Assertion Success, CheckIn Date is: " + checkInDateConfirm);
 
     }
 
@@ -74,7 +78,7 @@ public class ConfirmPageActions {
 
         checkOutDateConfirm = confirmPageLocators.checkOutDate.getText();
         Assert.assertEquals(checkOutDateConfirm, checkOutDate);
-        System.out.println("CheckOut Date Assertion Success and CheckOut Date is " + checkOutDateConfirm);
+        logger.info("CheckOut Date Assertion Success and CheckOut Date is " + checkOutDateConfirm);
 
     }
 
@@ -83,7 +87,7 @@ public class ConfirmPageActions {
         String hTLPAX = confirmPageLocators.hTLPaxCount.getText();
         confirmPaxHTL = hTLPAX.split(":")[1];
         Assert.assertEquals(confirmPaxHTL, paxNo);
-        System.out.println("Confirm Guest Assertion Success for Hotels and Pax Combination is: " + confirmPaxHTL);
+        logger.info("Confirm Guest Assertion Success for Hotels and Pax Combination is: " + confirmPaxHTL);
 
     }
 
@@ -92,7 +96,7 @@ public class ConfirmPageActions {
         String dateAll = confirmPageLocators.date.getText();
         confirmDate = dateAll.split(":")[1];
         Assert.assertEquals(confirmDate, departureDate);
-        System.out.println("Departure Date Assertion Success");
+        logger.info("Departure Date Assertion Success");
 
     }
 
@@ -101,7 +105,7 @@ public class ConfirmPageActions {
         String guest = confirmPageLocators.guests.getText();
         confirmGuest = guest.split(":")[1];
         Assert.assertEquals(confirmGuest, guestCount);
-        System.out.println("Confirm Guest Assertion Success");
+        logger.info("Confirm Guest Assertion Success");
 
     }
 
@@ -110,7 +114,7 @@ public class ConfirmPageActions {
         String loc = confirmPageLocators.location.getText();
         confirmLocation = loc.split(":")[1];
         Assert.assertEquals(confirmLocation, location);
-        System.out.println("Location Assertion Assertion Success");
+        logger.info("Location Assertion Assertion Success");
 
     }
 
@@ -119,7 +123,7 @@ public class ConfirmPageActions {
         String cityLoc = confirmPageLocators.hTLCity.getText();
         confirmCity = cityLoc.split(":")[1];
         Assert.assertEquals(confirmCity, hTLaddress);
-        System.out.println("Confirm City Assertion Success and Hotel Location is: " + confirmCity);
+        logger.info("Confirm City Assertion Success and Hotel Location is: " + confirmCity);
 
     }
 
@@ -127,9 +131,9 @@ public class ConfirmPageActions {
 
         Thread.sleep(2000);
         String totPaid = confirmPageLocators.paid.getText();
-        paid = totPaid.split("£")[0];
+        paid = totPaid.split("£")[1];
         Assert.assertEquals(paid, fullPrice);
-        System.out.println("Price Assertion Success and Paid Amount is: " + paid);
+        logger.info("Price Assertion Success and Paid Amount is: " + paid);
 
     }
 
@@ -137,7 +141,7 @@ public class ConfirmPageActions {
 
         confirmPageLocators.cancelIcon.click();
         Thread.sleep(2000);
-        System.out.println("Click the Cancel Icon");
+        logger.info("Click the Cancel Icon");
 
     }
 
@@ -147,7 +151,7 @@ public class ConfirmPageActions {
 
             confirmPageLocators.cancelPopUp.isDisplayed();
             present = true;
-            System.out.println("Cancel popup is Visible");
+            logger.info("Cancel popup is Visible");
 
         } catch (NoSuchElementException e) {
             present = false;
@@ -158,7 +162,7 @@ public class ConfirmPageActions {
     public void clickCancelButton() throws InterruptedException {
 
         confirmPageLocators.cancelBooking.click();
-        System.out.println("Click the Booking Cancel Button");
+        logger.info("Click the Booking Cancel Button");
         Thread.sleep(25000);
 
     }

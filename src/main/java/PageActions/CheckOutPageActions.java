@@ -1,7 +1,9 @@
 package PageActions;
 
 import PageLocators.CheckOutPageLocators;
+import Utilities.Log;
 import Utilities.SeleniumDriver;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.support.PageFactory;
@@ -27,6 +29,8 @@ public class CheckOutPageActions {
     //    QuestionFillActions fillQuest = new QuestionFillActions();
     QuestionFillActions questionFillActions = new QuestionFillActions();
 
+    final Logger logger = Log.getLogData(Log.class.getName());
+
 
     public CheckOutPageActions() {
 
@@ -42,7 +46,7 @@ public class CheckOutPageActions {
 
             checkOutPageLocators.yourDetails.isDisplayed();
             present = true;
-            System.out.println("Your Detail Element is Visible");
+            logger.info("Your Detail Element is Visible");
 
         } catch (NoSuchElementException e) {
             present = false;
@@ -55,8 +59,8 @@ public class CheckOutPageActions {
 
         productTitle = checkOutPageLocators.productName1.getText();
         assertTrue(productTitle.contains(pName));
-        System.out.println("Product Title is :" + productTitle);
-        System.out.println("Product Title Assertion Success");
+        logger.info("Product Title is :" + productTitle);
+        logger.info("Product Title Assertion Success");
 
     }
 
@@ -64,7 +68,7 @@ public class CheckOutPageActions {
 
         String fullDate = checkOutPageLocators.date1.getText();
         departureDate = fullDate.split(":")[1];
-        System.out.println("Departure Date is: " + departureDate);
+        logger.info("Departure Date is: " + departureDate);
 
     }
 
@@ -72,7 +76,7 @@ public class CheckOutPageActions {
 
         String fullLocation = checkOutPageLocators.location1.getText();
         location = fullLocation.split(":")[1];
-        System.out.println("Location is: " + location);
+        logger.info("Location is: " + location);
 
     }
 
@@ -80,23 +84,23 @@ public class CheckOutPageActions {
 
         String fullGuestCount = checkOutPageLocators.guests1.getText();
         guestCount = fullGuestCount.split(":")[1];
-        System.out.println("Guest Count is: " + guestCount);
+        logger.info("Guest Count is: " + guestCount);
 
     }
 
     public void subPrice() {
 
         String subTot = checkOutPageLocators.subPrice1.getText();
-        subPrice = subTot.split("£")[0];
-        System.out.println("Sub Total is: " + subPrice);
+        subPrice = subTot.split("£")[1];
+        logger.info("Sub Total is: " + subPrice);
 
     }
 
     public void fullTotal() {
 
         String fullTot = checkOutPageLocators.totalPrice1.getText();
-        fullPrice = fullTot.split("£")[0];
-        System.out.println("Full Total is: " + fullPrice);
+        fullPrice = fullTot.split("£")[1];
+        logger.info("Full Total is: " + fullPrice);
 
     }
 
@@ -106,14 +110,14 @@ public class CheckOutPageActions {
         checkOutPageLocators.title1.click();
         Thread.sleep(3000);
         checkOutPageLocators.titleSelect1.click();
-        System.out.println("Passenger Title Select");
+        logger.info("Passenger Title Select");
 
         checkOutPageLocators.fName1.sendKeys(firstName);
         Thread.sleep(1500);
-        System.out.println("First Name Entered");
+        logger.info("First Name Entered");
         checkOutPageLocators.lName1.click();
         checkOutPageLocators.lName1.sendKeys(lastName);
-        System.out.println("Last Name Entered");
+        logger.info("Last Name Entered");
         Thread.sleep(2000);
 
     }
@@ -124,14 +128,14 @@ public class CheckOutPageActions {
         checkOutPageLocators.title2.click();
         Thread.sleep(1000);
         checkOutPageLocators.titleSelect2.click();
-        System.out.println("Passenger Title Select for Second Room Passenger");
+        logger.info("Passenger Title Select for Second Room Passenger");
 
         checkOutPageLocators.fName2.sendKeys(firstName);
         Thread.sleep(1500);
-        System.out.println("First Name Entered for Second Room Passenger");
+        logger.info("First Name Entered for Second Room Passenger");
         checkOutPageLocators.lName2.click();
         checkOutPageLocators.lName2.sendKeys(lastName);
-        System.out.println("Last Name Entered for Second Room Passenger");
+        logger.info("Last Name Entered for Second Room Passenger");
         Thread.sleep(2000);
 
     }
@@ -140,7 +144,7 @@ public class CheckOutPageActions {
 
         checkOutPageLocators.email1.click();
         checkOutPageLocators.email1.sendKeys(emailAddress);
-        System.out.println("Email1 Entered");
+        logger.info("Email1 Entered");
 
     }
 
@@ -148,7 +152,7 @@ public class CheckOutPageActions {
 
         JavascriptExecutor jsx = (JavascriptExecutor) SeleniumDriver.getDriver();
         jsx.executeScript("window.scrollBy(0,250)", "");
-        System.out.println("Scroll Down");
+        logger.info("Scroll Down");
         checkOutPageLocators.someWhere.click();
 
     }
@@ -157,9 +161,9 @@ public class CheckOutPageActions {
 
         checkOutPageLocators.countryCode1.click();
         Thread.sleep(3000);
-        System.out.println("Country Code Drop down Click Success");
+        logger.info("Country Code Drop down Click Success");
         checkOutPageLocators.countryCodeSelect1.click();
-        System.out.println("Country Selected Success");
+        logger.info("Country Selected Success");
 
         checkOutPageLocators.mobileNumber1.sendKeys(String.valueOf(phone));
         Thread.sleep(3000);
@@ -201,9 +205,9 @@ public class CheckOutPageActions {
     public void confirmCart() throws InterruptedException {
 
         checkOutPageLocators.tick.click();
-        System.out.println("Tick the Box");
+        logger.info("Tick the Box");
         checkOutPageLocators.confirm.click();
-        System.out.println("Click Confirm Button");
+        logger.info("Click Confirm Button");
         Thread.sleep(25000);
     }
 
@@ -212,7 +216,7 @@ public class CheckOutPageActions {
         Thread.sleep(2000);
         checkOutPageLocators.promoCodeBox.sendKeys(promo);
         checkOutPageLocators.promoCodeApply.click();
-        System.out.println("Promo Code applied");
+        logger.info("Promo Code applied");
         Thread.sleep(2000);
 
     }
@@ -222,8 +226,8 @@ public class CheckOutPageActions {
 
         hotelTitle = checkOutPageLocators.hotelName1.getText();
         assertTrue(hotelTitle.contains(hName));
-        System.out.println("Hotel Name is :" + hotelTitle);
-        System.out.println("Hotel Name Assertion Success");
+        logger.info("Hotel Name is :" + hotelTitle);
+        logger.info("Hotel Name Assertion Success");
 
     }
 
@@ -231,7 +235,7 @@ public class CheckOutPageActions {
 
         String htkAddress = checkOutPageLocators.hTLAddress1.getText();
         hTLaddress = htkAddress.split(":")[1];
-        System.out.println("HTL Address is: " + hTLaddress);
+        logger.info("HTL Address is: " + hTLaddress);
 
     }
 
@@ -239,7 +243,7 @@ public class CheckOutPageActions {
 
         String roomType = checkOutPageLocators.roomType1.getText();
         roomtype = roomType.split(":")[1];
-        System.out.println("Room Type is: " + roomtype);
+        logger.info("Room Type is: " + roomtype);
 
     }
 
@@ -248,7 +252,7 @@ public class CheckOutPageActions {
 
         String paxCount = checkOutPageLocators.paxCount1.getText();
         paxNo = paxCount.split(":")[1];
-        System.out.println("Pax Count is: " + paxNo);
+        logger.info("Pax Count is: " + paxNo);
 
     }
 
@@ -272,7 +276,7 @@ public class CheckOutPageActions {
     public void checkOutDate() {
 
         checkOutDate = checkOutPageLocators.checkOut1.getText();
-        System.out.println("CheckOut Date is: " + checkOutDate);
+        logger.info("CheckOut Date is: " + checkOutDate);
 
     }
 
