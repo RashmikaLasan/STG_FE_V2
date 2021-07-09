@@ -31,14 +31,21 @@ public class QuestionLocators {
     @FindBy(how = How.XPATH, using = "//label[contains(text(),'Tour/Activity Language')]")
     public WebElement language;
 
-    @FindBy(how = How.XPATH, using = "//*[contains(@class, 'iJGVTQ')]/div/form/div/div[2]/div[2]/div/div/div")
+    @FindBy(how = How.XPATH, using = "//button[@data-automation-id='LANG-dropdown-toggle']")
     public WebElement languageClick;
 
-//    @FindBy(how = How.XPATH, using = "//span[text()='English - Audio']")
-//    public WebElement languageSelect;
-
-    @FindBy(how = How.XPATH, using = "//span[text()='English - Guide']")
+    @FindBy(how = How.XPATH, using = "//*[contains(@class, 'btdiGj')]/a[1]")
     public WebElement languageSelect;
+
+
+    @FindBy(how = How.XPATH, using = "//label[text()='Hotel Pickup']")
+    public WebElement hotelPickup;
+
+    @FindBy(how = How.CSS, using = "body.js-focus-visible:nth-child(2) div.core-styled__Container-sc-1n2dkln-0.ebnYyC div.sc-kHWWYL.core-styled__StyledContentContainer-sc-1n2dkln-2.zRuTu.nPQbq:nth-child(4) div.sc-jUfyBS.cbITWJ div.sc-jQAxuV.iJGVTQ:nth-child(4) div.sc-gKAaRy.kViyjc div.sc-gKAaRy.kViyjc:nth-child(2) div:nth-child(2) div.sc-gKAaRy.kViyjc:nth-child(2) div.sc-gKAaRy.fsPUru:nth-child(1) div.sc-gKAaRy.RHFDropdownFieldstyled__StyledDropDownContaner-sc-104elrx-4.jOJeXD.jLrOKS > div:nth-child(2)")
+    public WebElement hotelPickupClick;
+
+    @FindBy(how = How.XPATH, using = "//span[contains(text(), \"I live locally / I'm staying with friends, relatives\")]")
+    public WebElement hotelPickupSelect;
 
 
 
@@ -85,8 +92,19 @@ public class QuestionLocators {
     public WebElement birthYear;
 
 
-    @FindBy(how = How.XPATH, using = "//label[contains(text(),'Date of Birth')]")
-    public WebElement birthDate;
+    @FindBy(how = How.XPATH, using = "//*[contains(@class, 'iJGVTQ')]/div/form/div/div[3]/div/div/div[2]/div/div/label")
+    public WebElement birthDateLabel2;
+
+    @FindBy(how = How.XPATH, using = "//body/div[@id='root']/div[1]/div[2]/div[1]/div[3]/div[1]/form[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]")
+    public WebElement birthDay2;
+
+    @FindBy(how = How.XPATH, using = "//body/div[@id='root']/div[1]/div[2]/div[1]/div[3]/div[1]/form[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/input[1]")
+    public WebElement birthMonth2;
+
+    @FindBy(how = How.XPATH, using = "//body/div[@id='root']/div[1]/div[2]/div[1]/div[3]/div[1]/form[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[3]/input[1]")
+    public WebElement birthYear2;
+
+
 
 
 }

@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b61c30da-721c-43b5-8649-3211c1a6ee93" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utilities/Log.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PageActions/CheckOutPageActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageActions/CheckOutPageActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageActions/ConfirmPageActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageActions/ConfirmPageActions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PageActions/QuestionFillActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageActions/QuestionFillActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageLocators/CheckOutPageLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageLocators/CheckOutPageLocators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageLocators/QuestionLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageLocators/QuestionLocators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/GenericFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/GenericFlow.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/GenericFlowSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/GenericFlowSteps.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,23 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HotelFlow.feature" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/Resources/Features/HotelFlow.feature">
+      <file leaf-file-name="GenericFlow.feature" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/Resources/Features/GenericFlow.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-391">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfirmPageActions.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PageActions/ConfirmPageActions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1394">
-              <caret line="89" column="19" selection-start-line="89" selection-start-column="7" selection-end-line="89" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -52,11 +42,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[3]/div[1]/form[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/button[1]</find>
-      <find>469966822</find>
-      <find>Assert</find>
-      <find>pax co</find>
-      <find>guess</find>
       <find>locati</find>
       <find>//body/div[@id='root']/div[1]/div[2]/div[1]/div[4]/div[1]/div[2]/div[2]/span[1]</find>
       <find>city</find>
@@ -82,6 +67,11 @@
       <find>pax coun</find>
       <find>Visiblesddddddddddddddddddddddddddddddddddddddddd</find>
       <find>System.out.println</find>
+      <find>bir</find>
+      <find>birt</find>
+      <find>child</find>
+      <find>1 child</find>
+      <find>par</find>
     </findStrings>
     <replaceStrings>
       <replace>logger.info</replace>
@@ -106,21 +96,21 @@
         <option value="$PROJECT_DIR$/src/test/Resources/Features/GenericNoPromo.feature" />
         <option value="$PROJECT_DIR$/src/main/java/PageActions/QuestionFill.java" />
         <option value="$PROJECT_DIR$/src/main/java/PageLocators/ConfirmPageLocators.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/GenericFlowSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/HotelFlowSteps.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PageLocators/QuestionLocators.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PageLocators/CheckOutPageLocators.java" />
         <option value="$PROJECT_DIR$/src/test/Resources/Features/HotelFlow.feature" />
-        <option value="$PROJECT_DIR$/src/test/Resources/Features/GenericFlow.feature" />
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" />
         <option value="$PROJECT_DIR$/src/test/Resources/Features/HotelFlow-RoomWise.feature" />
         <option value="$PROJECT_DIR$/log4j.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Utilities/Log.java" />
         <option value="$PROJECT_DIR$/src/main/java/PageActions/ConfirmPageActions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PageActions/CheckOutPageActions.java" />
         <option value="$PROJECT_DIR$/src/main/java/PageActions/QuestionFillActions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Steps/GenericFlowSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PageLocators/QuestionLocators.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PageActions/CheckOutPageActions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PageLocators/CheckOutPageLocators.java" />
+        <option value="$PROJECT_DIR$/src/test/Resources/Features/GenericFlow.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" />
       </list>
     </option>
   </component>
@@ -149,6 +139,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
+    <option name="y" value="-10" />
     <option name="width" value="930" />
     <option name="height" value="1040" />
   </component>
@@ -159,7 +150,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -268,17 +260,11 @@
               <item name="Resources" type="462c0819:PsiDirectoryNode" />
               <item name="Features" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CT_STG_FE_V2_Flow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CT_STG_FE_V2_Flow" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -564,38 +550,45 @@
       <option name="project" value="LOCAL" />
       <updated>1625692301345</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Log4J">
+      <created>1625762569456</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1625762569456</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="E__LearningMe_CT_STG_FE_V2_Flow_testng_xml - 2021.07.08 at 01h 57m 21s.xml">
+    <history-entry file="E__LearningMe_CT_STG_FE_V2_Flow_testng_xml - 2021.07.09 at 02h 12m 02s.xml">
       <configuration name="E:/LearningMe/CT_STG_FE_V2_Flow/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__LearningMe_CT_STG_FE_V2_Flow_testng_xml - 2021.07.08 at 01h 58m 33s.xml">
+    <history-entry file="E__LearningMe_CT_STG_FE_V2_Flow_testng_xml - 2021.07.09 at 02h 12m 58s.xml">
       <configuration name="E:/LearningMe/CT_STG_FE_V2_Flow/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__LearningMe_CT_STG_FE_V2_Flow_testng_xml - 2021.07.08 at 02h 02m 30s.xml">
+    <history-entry file="E__LearningMe_CT_STG_FE_V2_Flow_testng_xml - 2021.07.09 at 02h 14m 49s.xml">
       <configuration name="E:/LearningMe/CT_STG_FE_V2_Flow/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__LearningMe_CT_STG_FE_V2_Flow_testng_xml - 2021.07.08 at 02h 04m 44s.xml">
+    <history-entry file="E__LearningMe_CT_STG_FE_V2_Flow_testng_xml - 2021.07.09 at 02h 17m 40s.xml">
       <configuration name="E:/LearningMe/CT_STG_FE_V2_Flow/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__LearningMe_CT_STG_FE_V2_Flow_testng_xml - 2021.07.08 at 02h 08m 15s.xml">
+    <history-entry file="E__LearningMe_CT_STG_FE_V2_Flow_testng_xml - 2021.07.09 at 02h 20m 20s.xml">
       <configuration name="E:/LearningMe/CT_STG_FE_V2_Flow/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__LearningMe_CT_STG_FE_V2_Flow_testng_xml - 2021.07.08 at 02h 11m 18s.xml">
+    <history-entry file="E__LearningMe_CT_STG_FE_V2_Flow_testng_xml - 2021.07.09 at 02h 21m 34s.xml">
       <configuration name="E:/LearningMe/CT_STG_FE_V2_Flow/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__LearningMe_CT_STG_FE_V2_Flow_testng_xml - 2021.07.08 at 02h 13m 24s.xml">
+    <history-entry file="E__LearningMe_CT_STG_FE_V2_Flow_testng_xml - 2021.07.09 at 02h 23m 17s.xml">
       <configuration name="E:/LearningMe/CT_STG_FE_V2_Flow/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__LearningMe_CT_STG_FE_V2_Flow_testng_xml - 2021.07.08 at 03h 09m 27s.xml">
+    <history-entry file="E__LearningMe_CT_STG_FE_V2_Flow_testng_xml - 2021.07.09 at 18h 55m 12s.xml">
       <configuration name="E:/LearningMe/CT_STG_FE_V2_Flow/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__LearningMe_CT_STG_FE_V2_Flow_testng_xml - 2021.07.08 at 03h 18m 00s.xml">
+    <history-entry file="E__LearningMe_CT_STG_FE_V2_Flow_testng_xml - 2021.07.09 at 18h 57m 29s.xml">
       <configuration name="E:/LearningMe/CT_STG_FE_V2_Flow/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__LearningMe_CT_STG_FE_V2_Flow_testng_xml - 2021.07.08 at 03h 23m 04s.xml">
+    <history-entry file="E__LearningMe_CT_STG_FE_V2_Flow_testng_xml - 2021.07.09 at 20h 17m 18s.xml">
       <configuration name="E:/LearningMe/CT_STG_FE_V2_Flow/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -618,20 +611,20 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50201344" side_tool="true" weight="0.32842416" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.37865496" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.1442953" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49798658" weight="0.3240059" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46833578" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44624448" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49932885" weight="0.3298969" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14832215" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13557047" />
       <window_info anchor="bottom" id="SonarLint" order="11" sideWeight="0.49731544" weight="0.32842416" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38586158" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.43151695" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24966443" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -691,17 +684,65 @@
     <MESSAGE value="TestNG Added" />
     <MESSAGE value="Pom File Changed" />
     <MESSAGE value="Regex Change in Price" />
-    <option name="LAST_COMMIT_MESSAGE" value="Regex Change in Price" />
+    <MESSAGE value="Log4J" />
+    <option name="LAST_COMMIT_MESSAGE" value="Log4J" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="168" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PageActions/QuestionFillActions.java</url>
+          <line>226</line>
+          <properties />
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PageActions/CheckOutPageActions.java</url>
+          <line>129</line>
+          <properties />
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PageActions/CheckOutPageActions.java</url>
+          <line>127</line>
+          <properties />
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PageActions/CheckOutPageActions.java</url>
+          <line>132</line>
+          <properties />
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PageActions/CheckOutPageActions.java</url>
+          <line>133</line>
+          <properties />
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="198" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>checkOutPageLocators.title2.click()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>questionLocators.birthDay2.sendKeys(&quot;19&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>questionLocators.birthDateLabel2.isDisplayed()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>subPrice</expression-string>
         <language-id>JAVA</language-id>
@@ -729,21 +770,6 @@
       </expression>
       <expression>
         <expression-string>checkOutPageLocators.HotelName1.getText()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>questionLocators.passportNumber.isDisplayed()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(questionLocators.passportNumber.isDisplayed())</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>if (questionLocators.passportNumber.isDisplayed()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -955,49 +981,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageLocators/QuestionLocators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Resources/Features/GenericFlow.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="131" column="23" selection-start-line="131" selection-start-column="23" selection-end-line="131" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/Extent_Reports/08072021_124140.html" />
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Runner/RunCuke.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageLocators/CheckOutPageLocators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="90" column="22" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Resources/Features/HotelFlow-RoomWise.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="15" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1015,41 +1003,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/HotelFlowSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-538">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageActions/ConfirmPageActions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="89" column="19" selection-start-line="89" selection-start-column="7" selection-end-line="89" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/ExecutionLog.log" />
-    <entry file="file://$PROJECT_DIR$/ExecutionLog.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state>
-          <caret column="49" selection-start-column="49" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageActions/CheckOutPageActions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/TimeHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1064,40 +1018,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageActions/QuestionFillActions.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/Log.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2021">
-          <caret line="36" column="60" lean-forward="true" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+        <state relative-caret-position="170">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Resources/Features/HotelFlow-RoomWise.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="22" column="108" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/HotelFlowSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="109" column="16" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/Log.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageLocators/QuestionLocators.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1734">
+          <caret line="104" column="175" selection-start-line="104" selection-start-column="175" selection-end-line="104" selection-end-column="175" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Steps/GenericFlowSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+        <state relative-caret-position="1649">
+          <caret line="102" column="34" selection-start-line="102" selection-start-column="34" selection-end-line="102" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageActions/ConfirmPageActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1683">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Runner/RunCuke.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExecutionLog.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state>
+          <caret column="49" selection-start-column="49" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageActions/QuestionFillActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="221" selection-start-line="221" selection-end-line="221" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageLocators/CheckOutPageLocators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageActions/CheckOutPageActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Resources/Features/HotelFlow.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        <state relative-caret-position="3145">
+          <caret line="185" column="190" selection-start-line="185" selection-start-column="187" selection-end-line="185" selection-end-column="190" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Resources/Features/GenericFlow.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
         </state>
       </provider>
     </entry>

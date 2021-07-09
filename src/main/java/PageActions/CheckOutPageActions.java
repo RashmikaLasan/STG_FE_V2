@@ -124,9 +124,9 @@ public class CheckOutPageActions {
 
     public void secondRoomPaxName(String firstName, String lastName) throws InterruptedException {
 
-        Thread.sleep(1000);
+        Thread.sleep(3000);
         checkOutPageLocators.title2.click();
-        Thread.sleep(1000);
+        Thread.sleep(4000);
         checkOutPageLocators.titleSelect2.click();
         logger.info("Passenger Title Select for Second Room Passenger");
 
@@ -175,12 +175,20 @@ public class CheckOutPageActions {
 
         questionFillActions.addPassportNumber();
         questionFillActions.languageSelect();
+        questionFillActions.pickUpPointSelect();
         questionFillActions.addBirthDate();
         questionFillActions.addPassportNationality();
         questionFillActions.addPassportExpiryDate();
         questionFillActions.addArrivalAirline();
         questionFillActions.arrivalFlightNo();
         questionFillActions.dropOffLocation();
+
+    }
+
+    public void secondPassengerBookingQuestion() throws InterruptedException {
+
+        questionFillActions.addSecondPassengerBirthDate();
+
 
     }
 

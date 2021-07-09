@@ -4,6 +4,7 @@ import PageActions.CheckOutPageActions;
 import PageActions.ConfirmPageActions;
 import Utilities.SeleniumDriver;
 import Utilities.TimeHandler;
+import cucumber.api.PendingException;
 import cucumber.api.java.en.*;
 
 public class GenericFlowSteps {
@@ -185,6 +186,13 @@ public class GenericFlowSteps {
     public void clickCancelTheBooking() throws Throwable {
 
         confirmPageActions.clickCancelButton();
+
+    }
+
+    @Then("^User fill the Second Passenger booking questions$")
+    public void userFillTheSecondPassengerBookingQuestions() throws Throwable {
+
+        checkOutPageActions.secondPassengerBookingQuestion();
 
     }
 }

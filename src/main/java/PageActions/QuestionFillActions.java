@@ -42,6 +42,27 @@ public class QuestionFillActions {
 
     }
 
+
+    public void pickUpPointSelect() throws InterruptedException {
+
+        try {
+
+            questionLocators.hotelPickup.isDisplayed();
+            present = true;
+            logger.info("Hotel Pickup Element is Visible");
+
+            questionLocators.hotelPickupClick.click();
+            logger.info("Hotel Pickup Drop down Click Success");
+            Thread.sleep(500);
+            questionLocators.hotelPickupSelect.click();
+            logger.info("Select Hotel Pickup from the Drop Down");
+
+        } catch (NoSuchElementException e) {
+            present = false;
+        }
+
+    }
+
     public void addPassportNumber() {
 
         SeleniumDriver.getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
@@ -173,6 +194,31 @@ public class QuestionFillActions {
             logger.info("Birth Month Entered");
 
             questionLocators.birthYear.sendKeys("1995");
+            logger.info("Birth Year Entered");
+            Thread.sleep(100);
+        } catch (NoSuchElementException e) {
+
+            present = false;
+
+        }
+
+    }
+
+
+    public void addSecondPassengerBirthDate() throws InterruptedException {
+
+        try {
+
+            questionLocators.birthDateLabel2.isDisplayed();
+
+            logger.info("Birth Day Element is Visible");
+            questionLocators.birthDay2.sendKeys("19");
+            logger.info("Birth Date Entered");
+
+            questionLocators.birthMonth2.sendKeys("05");
+            logger.info("Birth Month Entered");
+
+            questionLocators.birthYear2.sendKeys("2006");
             logger.info("Birth Year Entered");
             Thread.sleep(100);
         } catch (NoSuchElementException e) {

@@ -9,7 +9,7 @@ public class CheckOutPageLocators {
     @FindBy(how = How.CSS, using = ".dCIRwY .sc-bBjRSN")
     public WebElement title1;
 
-    @FindBy(how = How.XPATH, using = "//*[contains(@class, 'iJGVTQ')]/div/form/div/div[3]/div/div/div/div/div/div/div/div/button")
+    @FindBy(how = How.XPATH, using = "//div[@class='sc-gKAaRy SZeEM']//div[@class='sc-gKAaRy jOJeXD']//div[@class='sc-gKAaRy dCIRwY']//div[@class='sc-gKAaRy RHFDropdownFieldstyled__StyledDropDownContaner-sc-104elrx-4 jOJeXD jLrOKS']//div//button[@type='button']")
     public WebElement title2;
 
     @FindBy(how = How.XPATH, using = "//span[text()='Mr']")

@@ -166,3 +166,87 @@ Feature: Do the Generic search and complete the booking
 
 #      | FutureDateCount  | supplierCode | City | ChoiceKey                                | Pax     | childDob | seniorDob | currency | bookingProductType | ProductName                                              |
 #      | 124              | VT10392P1    | PAR  | GEN~0~TG42__11:30~VT15~VT10392P1~10392P1 | 1-0-0-0 |          |           | GBP      | experiences        | Private Shopping Walking Tour for Teenage Girls in Paris |
+
+
+     #------------------------------------------------------------End--------------------------------------------------------------------------------
+
+
+  @genchild @gen @all
+  Scenario Outline: 1.4 Validate Generic Flow for 1 Adult and 1 child without Promo Code for Refundable Product
+
+    Given user set the booking parameter checkIn date as "<FutureDateCount>" Supplier Code as "<supplierCode>" City as "<City>" ChoiceKey as "<ChoiceKey>" pax as "<Pax>" ChildDoB as "<childDob>" seniorDob as "<seniorDob>" currency as "<currency>" bookingProductType as "<bookingProductType>"
+    When Checkout page should be loaded
+    And check the Product Name is Correct as "<ProductName>"
+    And check the Travelling Date is Correct
+    And check the Travelling Location is Correct
+    And check the Guest Count is Correct
+    And check the Sub Price of the Booking
+    And check the Total Price of the Booking
+
+    Then User fill the Passenger Details where First Name as "Lasan" and Last Name as "Rashmika"
+    Then User fill the email address "lasanrash@gmail.com"
+    Then Scroll Down the Screen
+    Then User fill the Mobile Number as "71551996777"
+    Then Scroll Down the Screen
+    Then User fill the Booking Questions
+    Then User fill the Second Room Passenger Details where First Name as "Rashmika" and Last Name as "Lasan"
+    Then User fill the Second Passenger booking questions
+
+    Then User fill the payment details
+    Then click Confirm
+
+    When user Navigate to the Confirmation Page Booking ID Should be displayed
+    And Correct Product Name should be displayed
+    And Correct Travelling Date should be displayed
+    And Correct Guest Count should be displayed
+    And Correct City Location should be displayed
+    Then Scroll Down the Screen
+    Then Scroll Down the Screen
+    And Correct Price should be displayed
+
+
+    Examples:
+      | FutureDateCount | supplierCode | City | ChoiceKey                                 | Pax     | childDob | seniorDob | currency | bookingProductType | ProductName                                                                     |
+      | 36              | VT105075P7   | PAR  | GEN~0~TG2__06:00~VT15~VT105075P7~105075P7 | 1-1-0-0 | 2006     |           | GBP      | experiences        | The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) |
+
+
+        #------------------------------------------------------------End--------------------------------------------------------------------------------
+
+
+  @geninfant @gen @all
+  Scenario Outline: 1.5 Validate Generic Flow for 1 Adult and 1 Infant without Promo Code for Refundable Product
+
+    Given user set the booking parameter checkIn date as "<FutureDateCount>" Supplier Code as "<supplierCode>" City as "<City>" ChoiceKey as "<ChoiceKey>" pax as "<Pax>" ChildDoB as "<childDob>" seniorDob as "<seniorDob>" currency as "<currency>" bookingProductType as "<bookingProductType>"
+    When Checkout page should be loaded
+    And check the Product Name is Correct as "<ProductName>"
+    And check the Travelling Date is Correct
+    And check the Travelling Location is Correct
+    And check the Guest Count is Correct
+    And check the Sub Price of the Booking
+    And check the Total Price of the Booking
+
+    Then User fill the Passenger Details where First Name as "Lasan" and Last Name as "Rashmika"
+    Then User fill the email address "lasanrash@gmail.com"
+    Then Scroll Down the Screen
+    Then User fill the Mobile Number as "71551996777"
+    Then Scroll Down the Screen
+    Then User fill the Booking Questions
+    Then User fill the Second Room Passenger Details where First Name as "Rashmika" and Last Name as "Lasan"
+    Then User fill the Second Passenger booking questions
+
+    Then User fill the payment details
+    Then click Confirm
+
+    When user Navigate to the Confirmation Page Booking ID Should be displayed
+    And Correct Product Name should be displayed
+    And Correct Travelling Date should be displayed
+    And Correct Guest Count should be displayed
+    And Correct City Location should be displayed
+    Then Scroll Down the Screen
+    Then Scroll Down the Screen
+    And Correct Price should be displayed
+
+
+    Examples:
+      | FutureDateCount | supplierCode | City | ChoiceKey                                       | Pax     | childDob | seniorDob | currency | bookingProductType | ProductName  |
+      | 36              | VT107514P13  | DXB  | GEN~0~DEFAULT__17:30~VT15~VT107514P13~107514P13 | 1-0-1-0 | 2021     |           | GBP      | experiences        | Royal Dinner |
