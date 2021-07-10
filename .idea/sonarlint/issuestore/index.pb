@@ -1,0 +1,36 @@
+
+[
++src/main/java/Utilities/SeleniumDriver.java,7\5\752159b74e4f79d892c566a90800eab45fffa1cb
+Y
+)src/test/java/Steps/GenericFlowSteps.java,5\6\56c63bb679abbdff15c008a3dc5287eebe0b4db9
+W
+'src/test/java/Steps/HotelFlowSteps.java,3\e\3e53707a9be5bd39e7fe3951a2aeed66622a9e22
+c
+3src/main/java/PageLocators/ConfirmPageLocators.java,2\9\29bfc736ed1aa7cd04cfaa6b5d37fe43fbda7bf8
+a
+1src/main/java/PageActions/ConfirmPageActions.java,9\7\97449aa705e97f3aea47468d987f548fe7143212
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+d
+4src/main/java/PageLocators/CheckOutPageLocators.java,4\b\4b4d40ba865e910c47f40d600b05a42bc5a0d051
+Q
+!src/test/java/Runner/RunCuke.java,c\1\c1e43591ff9d95c87d75d0781a907f1cd131bc99
+b
+2src/main/java/PageActions/QuestionFillActions.java,0\2\02fbe4034f0486adefa35af3669320dc2cc35e64
+`
+0src/main/java/PageLocators/QuestionLocators.java,1\b\1b5bbd2b2d659b19e1c5e4f6a75d9a1260709c46
+b
+2src/main/java/PageActions/CheckOutPageActions.java,4\b\4bddf0722bf366e535172d3ee2e259b6a29fcf07
+T
+$src/test/java/Steps/AfterAction.java,9\f\9fc032b9f305da8dd382f08a08716fbfc781ad83
+:
+
+testng.xml,5\2\522a7a4e21649af06297e31a9e33f13bb4fd3022
+9
+	log4j.xml,3\7\379f8e5b1e05c4fae4b2e1d5e13bbf293b155c88
+P
+ src/main/java/Utilities/Log.java,9\3\93c6eac5c797c1ebcb097945ddb9a2eee84b732f
+@
+ExecutionLog.log,9\9\99b368edf30737440074e2cb11e118b32ee3ba51
+X
+(src/main/java/Utilities/TimeHandler.java,c\d\cdb884b8c2e9eda03b5d806c3d4339ca2ff28f5f

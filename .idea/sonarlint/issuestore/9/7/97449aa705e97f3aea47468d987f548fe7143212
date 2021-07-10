@@ -1,0 +1,24 @@
+
+~
+java:S1104"^Make confirmProductName a static final constant or non-public and provide accessors if needed.(ª–‘­ùÿÿÿÿ8Ä»‰–¨/
+t
+java:S1104"YMake confirmPaxHTL a static final constant or non-public and provide accessors if needed.(ƒ¡Ó8Ä»‰–¨/
+w
+java:S1104"WMake confirmCity a static final constant or non-public and provide accessors if needed.(œ«ß˜ùÿÿÿÿ8Ä»‰–¨/
+s
+java:S1104"SMake present a static final constant or non-public and provide accessors if needed.(ƒÄüÀüÿÿÿÿ8Ä»‰–¨/
+r
+java:S1104"WMake confirmDate a static final constant or non-public and provide accessors if needed.(æöÅÚ8Ä»‰–¨/
+s
+java:S1104"XMake confirmGuest a static final constant or non-public and provide accessors if needed.(òª‘Ú8Ä»‰–¨/
+p
+java:S1104"PMake paid a static final constant or non-public and provide accessors if needed.(¡’à«üÿÿÿÿ8Ä»‰–¨/
+{
+java:S1104"[Make confirmLocation a static final constant or non-public and provide accessors if needed.(×¥³Éüÿÿÿÿ8Ä»‰–¨/
+y
+java:S1104"^Make checkInDateConfirm a static final constant or non-public and provide accessors if needed.(¯¶ó8Ä»‰–¨/
+
+java:S1104"_Make checkOutDateConfirm a static final constant or non-public and provide accessors if needed.(ØÓøœÿÿÿÿÿ8Ä»‰–¨/
+o
+java:S1104"UMake bookingId a static final constant or non-public and provide accessors if needed.(•¦z8Ä»‰–¨/
+s	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(òêÛ}8Ä»‰–¨/

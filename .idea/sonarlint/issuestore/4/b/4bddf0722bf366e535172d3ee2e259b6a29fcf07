@@ -1,0 +1,99 @@
+
+L
+java:S1444"1Make this "public static checkInDate" field final(åœ­‹8Ù¯Ï•¨/
+
+java:S1845"nRename method "checkInDate" to prevent any misunderstanding/clash with field "checkInDate" defined on line 23.(ëÊôâüÿÿÿÿ8ª¨—¨/
+‡
+java:S1845"lRename method "guestCount" to prevent any misunderstanding/clash with field "guestCount" defined on line 18.(ñì°8ª¨—¨/
+N
+java:S1444"3Make this "public static departureDate" field final(ß…Ãï8Ù¯Ï•¨/
+q
+java:S1104"VMake hTLaddress a static final constant or non-public and provide accessors if needed.(Œ×©ˆ8Ù¯Ï•¨/
+r
+java:S1104"WMake checkInDate a static final constant or non-public and provide accessors if needed.(åœ­‹8Ù¯Ï•¨/
+M
+java:S1444"2Make this "public static productTitle" field final(²‡‡Â8Ù¯Ï•¨/
+q
+java:S1104"VMake hotelTitle a static final constant or non-public and provide accessors if needed.(¶‘ô¯8Ù¯Ï•¨/
+u
+java:S1104"UMake fullPrice a static final constant or non-public and provide accessors if needed.(şŠÍÃıÿÿÿÿ8Ù¯Ï•¨/
+V
+java:S2696"6Make the enclosing method "static" or remove this set.(‰­„µÿÿÿÿÿ8ª¨—¨/
+Q
+java:S2696"6Make the enclosing method "static" or remove this set.(±±¤¬8ª¨—¨/
+V
+java:S2696"6Make the enclosing method "static" or remove this set.(Î¯š«øÿÿÿÿ8ª¨—¨/
+V
+java:S2696"6Make the enclosing method "static" or remove this set.(¨¥ŠÚûÿÿÿÿ8ª¨—¨/
+t
+java:S1104"TMake roomtype a static final constant or non-public and provide accessors if needed.(·ÖŸ®øÿÿÿÿ8Ù¯Ï•¨/
+R
+java:S1444"2Make this "public static checkOutDate" field final(ÿÜÒøÿÿÿÿ8Ù¯Ï•¨/
+o
+java:S1104"TMake location a static final constant or non-public and provide accessors if needed.(µ¯Æ8Ù¯Ï•¨/
+K
+java:S1444"0Make this "public static guestCount" field final(šƒ ì8Ù¯Ï•¨/
+x
+java:S1104"XMake checkOutDate a static final constant or non-public and provide accessors if needed.(ÿÜÒøÿÿÿÿ8Ù¯Ï•¨/
+s
+java:S1104"XMake productTitle a static final constant or non-public and provide accessors if needed.(²‡‡Â8Ù¯Ï•¨/
+ƒ
+java:S1845"hRename method "roomType" to prevent any misunderstanding/clash with field "roomtype" defined on line 26.(‰òÉ8ª¨—¨/
+V
+java:S2696"6Make the enclosing method "static" or remove this set.(Çÿ¨ùşÿÿÿÿ8ª¨—¨/
+V
+java:S2696"6Make the enclosing method "static" or remove this set.(˜ß«ÿÿÿÿÿ8ùË¦—¨/
+N
+java:S1444".Make this "public static roomtype" field final(·ÖŸ®øÿÿÿÿ8Ù¯Ï•¨/
+s	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(òêÛ}8Ù¯Ï•¨/
+s
+java:S1104"SMake present a static final constant or non-public and provide accessors if needed.(ƒÄüÀüÿÿÿÿ8Ù¯Ï•¨/
+I
+java:S1444".Make this "public static location" field final(µ¯Æ8Ù¯Ï•¨/
+[	java:S125"<This block of commented-out lines of code should be removed.(ïé‚üÿÿÿÿ8ª¨—¨/
+q
+java:S1104"QMake paxNo a static final constant or non-public and provide accessors if needed.(şàú’ÿÿÿÿÿ8Ù¯Ï•¨/
+V
+java:S2696"6Make the enclosing method "static" or remove this set.(¾°×²ùÿÿÿÿ8ª¨—¨/
+V
+java:S2696"6Make the enclosing method "static" or remove this set.(»ªêÚûÿÿÿÿ8ùË¦—¨/
+ˆ
+java:S1845"hRename method "location" to prevent any misunderstanding/clash with field "location" defined on line 19.(™şÈøÿÿÿÿ8ª¨—¨/
+Q
+java:S2696"6Make the enclosing method "static" or remove this set.(Şæ¾8ª¨—¨/
+Q
+java:S2696"6Make the enclosing method "static" or remove this set.(ğÔºİ8ª¨—¨/
+V	java:S125"<This block of commented-out lines of code should be removed.(çÆ¥8ª¨—¨/
+‹
+java:S1845"pRename method "checkOutDate" to prevent any misunderstanding/clash with field "checkOutDate" defined on line 24.(ü¥Ú8ª¨—¨/
+X	java:S106"9Replace this use of System.out or System.err by a logger.(µ°¿ûÿÿÿÿ8ª¨—¨/
+[	java:S125"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8ª¨—¨/
+{
+java:S1104"[Make hTLCityLocation a static final constant or non-public and provide accessors if needed.(Äíüşÿÿÿÿ8Ù¯Ï•¨/
+K
+java:S1444"0Make this "public static hTLaddress" field final(Œ×©ˆ8Ù¯Ï•¨/
+t
+java:S1104"TMake subPrice a static final constant or non-public and provide accessors if needed.(Àöˆôúÿÿÿÿ8Ù¯Ï•¨/
+V	java:S125"<This block of commented-out lines of code should be removed.(×ë8Ù¯Ï•¨/
+N
+java:S1444".Make this "public static subPrice" field final(Àöˆôúÿÿÿÿ8Ù¯Ï•¨/
+q
+java:S1104"VMake guestCount a static final constant or non-public and provide accessors if needed.(šƒ ì8Ù¯Ï•¨/
+O
+java:S1444"/Make this "public static fullPrice" field final(şŠÍÃıÿÿÿÿ8Ù¯Ï•¨/
+K
+java:S1444"0Make this "public static hotelTitle" field final(¶‘ô¯8Ù¯Ï•¨/
+Œ
+java:S1845"rRename method "departureDate" to prevent any misunderstanding/clash with field "departureDate" defined on line 17.(¬·îH8ùË¦—¨/
+V
+java:S2696"6Make the enclosing method "static" or remove this set.(Ù¥Œÿÿÿÿÿ8ª¨—¨/
+U
+java:S1444"5Make this "public static hTLCityLocation" field final(Äíüşÿÿÿÿ8Ù¯Ï•¨/
+K
+java:S1444"+Make this "public static paxNo" field final(şàú’ÿÿÿÿÿ8Ù¯Ï•¨/
+t
+java:S1104"YMake departureDate a static final constant or non-public and provide accessors if needed.(ß…Ãï8Ù¯Ï•¨/
+Q
+java:S2696"6Make the enclosing method "static" or remove this set.(ãŒƒ8ª¨—¨/
+ˆ
+java:S1845"hRename method "subPrice" to prevent any misunderstanding/clash with field "subPrice" defined on line 20.(åû­Ôúÿÿÿÿ8ª¨—¨/

@@ -1,0 +1,1136 @@
+[INFO] [Log] [landedPage] Your Detail Element is Visiblesddddddddddddddddddddddddddddddddddddddddd 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [hotelName] Hotel Name is :Four Seasons Hotel London at Park Lane 
+ [INFO] [Log] [hotelName] Hotel Name Assertion Success 
+ [INFO] [Log] [checkOutDate] CheckOut Date is: 08 Sep 2021 
+ [INFO] [Log] [hTLAddress1] HTL Address is:  Hamilton Place, Park Lane, W1J 7DR, London, United Kingdom 
+ [INFO] [Log] [roomType] Room Type is:  Superior Room, 1 King Bed 
+ [INFO] [Log] [subPrice] Sub Total is:  
+ [INFO] [Log] [fullTotal] Full Total is:  
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [confirmCart] Tick the Box 
+ [INFO] [Log] [confirmCart] Click Confirm Button 
+ [INFO] [Log] [bookingIdVisible] Waiting till Navigate to the Page 
+ [INFO] [Log] [bookingIdVisible] Navigated to the Confirmation Page 
+ [INFO] [Log] [bookingIdVisible] Navigated URL is: https://staging.theculturetrip.com/checkout/confirmation?b=59046&platform=web&tkn=nitCPyPcYXqknwSNHr%2F4WDxJvwoFJRjifG3rGUAmb%2FI1Y0C7bDKHfNYZ6QGWJFa1 
+ [INFO] [Log] [bookingIdVisible] BookingId is: Booking ID: 59046 
+ [INFO] [Log] [hotelNameAssertion] Confirm Hotel Name Assertion Success and Hotel Name is: Four Seasons Hotel London at Park Lane 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [checkInDateAssertion] CheckIn Date Assertion Success, CheckIn Date is: 06 Sep 2021 
+ [INFO] [Log] [checkOutDateAssertion] CheckOut Date Assertion Success and CheckOut Date is 08 Sep 2021 
+ [INFO] [Log] [cityAssertionHTL] Confirm City Assertion Success and Hotel Location is:  Hamilton Place, Park Lane, W1J 7DR, London, United Kingdom 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [htlPaxAssertion] Confirm Guest Assertion Success for Hotels and Pax Combination is:  1 Adult 
+ [INFO] [Log] [priceAssertion] Price Assertion Success and Paid Amount is:  
+ [INFO] [Log] [hotelName] Hotel Name is :Four Seasons Hotel London at Park Lane 
+ [INFO] [Log] [hotelName] Hotel Name Assertion Success 
+ [INFO] [Log] [checkOutDate] CheckOut Date is: 08 Sep 2021 
+ [INFO] [Log] [hTLAddress1] HTL Address is:  Hamilton Place, Park Lane, W1J 7DR, London, United Kingdom 
+ [INFO] [Log] [roomType] Room Type is:  Superior Room, 1 King Bed 
+ [INFO] [Log] [subPrice] Sub Total is: 976.23 
+ [INFO] [Log] [fullTotal] Full Total is: 976.23 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [confirmCart] Tick the Box 
+ [INFO] [Log] [confirmCart] Click Confirm Button 
+ [INFO] [Log] [bookingIdVisible] Waiting till Navigate to the Page 
+ [INFO] [Log] [bookingIdVisible] Navigated to the Confirmation Page 
+ [INFO] [Log] [bookingIdVisible] Navigated URL is: https://staging.theculturetrip.com/checkout/?startDate=2021-09-06&supplierCode=EAN115066&city=LON&fc=HTL__0__EAN115066__201589972~1~0~0~1~RO_RF__4&pax=1-0-0-0&childDob=&nights=2&currency=GBP&bookingProductType=places-to-stay 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  13 Aug 2021 
+ [INFO] [Log] [location] Location is:  Paris, France 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 1,039.62 
+ [INFO] [Log] [fullTotal] Full Total is: 1,039.62 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Drop down Click Success 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  13 Aug 2021 
+ [INFO] [Log] [location] Location is:  Paris, France 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 1,039.62 
+ [INFO] [Log] [fullTotal] Full Total is: 1,039.62 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Drop down Click Success 
+ [INFO] [Log] [addBirthDate] Birth Day Element is Visible 
+ [INFO] [Log] [addBirthDate] Birth Date Entered 
+ [INFO] [Log] [addBirthDate] Birth Month Entered 
+ [INFO] [Log] [addBirthDate] Birth Year Entered 
+ [INFO] [Log] [confirmCart] Tick the Box 
+ [INFO] [Log] [confirmCart] Click Confirm Button 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  13 Aug 2021 
+ [INFO] [Log] [location] Location is:  Paris, France 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 1,039.62 
+ [INFO] [Log] [fullTotal] Full Total is: 1,039.62 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Drop down Click Success 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  13 Aug 2021 
+ [INFO] [Log] [location] Location is:  Paris, France 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 1,039.62 
+ [INFO] [Log] [fullTotal] Full Total is: 1,039.62 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Drop down Click Success 
+ [INFO] [Log] [addBirthDate] Birth Day Element is Visible 
+ [INFO] [Log] [addBirthDate] Birth Date Entered 
+ [INFO] [Log] [addBirthDate] Birth Month Entered 
+ [INFO] [Log] [addBirthDate] Birth Year Entered 
+ [INFO] [Log] [confirmCart] Tick the Box 
+ [INFO] [Log] [confirmCart] Click Confirm Button 
+ [INFO] [Log] [bookingIdVisible] Waiting till Navigate to the Page 
+ [INFO] [Log] [bookingIdVisible] Navigated to the Confirmation Page 
+ [INFO] [Log] [bookingIdVisible] Navigated URL is: https://staging.theculturetrip.com/checkout/?startDate=2021-08-13&supplierCode=VT105075P7&city=PAR&fc=GEN~0~TG2__06:00~VT15~VT105075P7~105075P7&pax=1-1-0-0&childDob=2006&seniorDob=&currency=GBP&bookingProductType=experiences 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  13 Aug 2021 
+ [INFO] [Log] [location] Location is:  Paris, France 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 1,039.62 
+ [INFO] [Log] [fullTotal] Full Total is: 1,039.62 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  13 Aug 2021 
+ [INFO] [Log] [location] Location is:  Paris, France 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 1,039.62 
+ [INFO] [Log] [fullTotal] Full Total is: 1,039.62 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Drop down Click Success 
+ [INFO] [Log] [languageSelect] Select France from the Drop Down 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  13 Aug 2021 
+ [INFO] [Log] [location] Location is:  Paris, France 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 1,039.62 
+ [INFO] [Log] [fullTotal] Full Total is: 1,039.62 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Drop down Click Success 
+ [INFO] [Log] [languageSelect] Select France from the Drop Down 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Element is Visible 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Drop down Click Success 
+ [INFO] [Log] [pickUpPointSelect] Select Hotel Pickup from the Drop Down 
+ [INFO] [Log] [addBirthDate] Birth Day Element is Visible 
+ [INFO] [Log] [addBirthDate] Birth Date Entered 
+ [INFO] [Log] [addBirthDate] Birth Month Entered 
+ [INFO] [Log] [addBirthDate] Birth Year Entered 
+ [INFO] [Log] [confirmCart] Tick the Box 
+ [INFO] [Log] [confirmCart] Click Confirm Button 
+ [INFO] [Log] [bookingIdVisible] Waiting till Navigate to the Page 
+ [INFO] [Log] [bookingIdVisible] Navigated to the Confirmation Page 
+ [INFO] [Log] [bookingIdVisible] Navigated URL is: https://staging.theculturetrip.com/checkout/?startDate=2021-08-13&supplierCode=VT105075P7&city=PAR&fc=GEN~0~TG2__06:00~VT15~VT105075P7~105075P7&pax=1-1-0-0&childDob=2006&seniorDob=&currency=GBP&bookingProductType=experiences 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  13 Aug 2021 
+ [INFO] [Log] [location] Location is:  Paris, France 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 1,039.62 
+ [INFO] [Log] [fullTotal] Full Total is: 1,039.62 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Drop down Click Success 
+ [INFO] [Log] [languageSelect] Select France from the Drop Down 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Element is Visible 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Drop down Click Success 
+ [INFO] [Log] [pickUpPointSelect] Select Hotel Pickup from the Drop Down 
+ [INFO] [Log] [addBirthDate] Birth Day Element is Visible 
+ [INFO] [Log] [addBirthDate] Birth Date Entered 
+ [INFO] [Log] [addBirthDate] Birth Month Entered 
+ [INFO] [Log] [addBirthDate] Birth Year Entered 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  13 Aug 2021 
+ [INFO] [Log] [location] Location is:  Paris, France 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 1,039.62 
+ [INFO] [Log] [fullTotal] Full Total is: 1,039.62 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Drop down Click Success 
+ [INFO] [Log] [languageSelect] Select France from the Drop Down 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Element is Visible 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Drop down Click Success 
+ [INFO] [Log] [pickUpPointSelect] Select Hotel Pickup from the Drop Down 
+ [INFO] [Log] [addBirthDate] Birth Day Element is Visible 
+ [INFO] [Log] [addBirthDate] Birth Date Entered 
+ [INFO] [Log] [addBirthDate] Birth Month Entered 
+ [INFO] [Log] [addBirthDate] Birth Year Entered 
+ [INFO] [Log] [secondRoomPaxName] Passenger Title Select for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] First Name Entered for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] Last Name Entered for Second Room Passenger 
+ [INFO] [Log] [confirmCart] Tick the Box 
+ [INFO] [Log] [confirmCart] Click Confirm Button 
+ [INFO] [Log] [bookingIdVisible] Waiting till Navigate to the Page 
+ [INFO] [Log] [bookingIdVisible] Navigated to the Confirmation Page 
+ [INFO] [Log] [bookingIdVisible] Navigated URL is: https://staging.theculturetrip.com/checkout/?startDate=2021-08-13&supplierCode=VT105075P7&city=PAR&fc=GEN~0~TG2__06:00~VT15~VT105075P7~105075P7&pax=1-1-0-0&childDob=2006&seniorDob=&currency=GBP&bookingProductType=experiences 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  14 Aug 2021 
+ [INFO] [Log] [location] Location is:  Paris, France 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 1,039.62 
+ [INFO] [Log] [fullTotal] Full Total is: 1,039.62 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Drop down Click Success 
+ [INFO] [Log] [languageSelect] Select France from the Drop Down 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Element is Visible 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Drop down Click Success 
+ [INFO] [Log] [pickUpPointSelect] Select Hotel Pickup from the Drop Down 
+ [INFO] [Log] [addBirthDate] Birth Day Element is Visible 
+ [INFO] [Log] [addBirthDate] Birth Date Entered 
+ [INFO] [Log] [addBirthDate] Birth Month Entered 
+ [INFO] [Log] [addBirthDate] Birth Year Entered 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  14 Aug 2021 
+ [INFO] [Log] [location] Location is:  Paris, France 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 1,039.62 
+ [INFO] [Log] [fullTotal] Full Total is: 1,039.62 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Drop down Click Success 
+ [INFO] [Log] [languageSelect] Select France from the Drop Down 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Element is Visible 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Drop down Click Success 
+ [INFO] [Log] [pickUpPointSelect] Select Hotel Pickup from the Drop Down 
+ [INFO] [Log] [addBirthDate] Birth Day Element is Visible 
+ [INFO] [Log] [addBirthDate] Birth Date Entered 
+ [INFO] [Log] [addBirthDate] Birth Month Entered 
+ [INFO] [Log] [addBirthDate] Birth Year Entered 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  14 Aug 2021 
+ [INFO] [Log] [location] Location is:  Paris, France 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 1,039.62 
+ [INFO] [Log] [fullTotal] Full Total is: 1,039.62 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Drop down Click Success 
+ [INFO] [Log] [languageSelect] Select France from the Drop Down 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Element is Visible 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Drop down Click Success 
+ [INFO] [Log] [pickUpPointSelect] Select Hotel Pickup from the Drop Down 
+ [INFO] [Log] [addBirthDate] Birth Day Element is Visible 
+ [INFO] [Log] [addBirthDate] Birth Date Entered 
+ [INFO] [Log] [addBirthDate] Birth Month Entered 
+ [INFO] [Log] [addBirthDate] Birth Year Entered 
+ [INFO] [Log] [secondRoomPaxName] Passenger Title Select for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] First Name Entered for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] Last Name Entered for Second Room Passenger 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  14 Aug 2021 
+ [INFO] [Log] [location] Location is:  Paris, France 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 1,039.62 
+ [INFO] [Log] [fullTotal] Full Total is: 1,039.62 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Drop down Click Success 
+ [INFO] [Log] [languageSelect] Select France from the Drop Down 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Element is Visible 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Drop down Click Success 
+ [INFO] [Log] [pickUpPointSelect] Select Hotel Pickup from the Drop Down 
+ [INFO] [Log] [secondRoomPaxName] Passenger Title Select for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] First Name Entered for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] Last Name Entered for Second Room Passenger 
+ [INFO] [Log] [confirmCart] Tick the Box 
+ [INFO] [Log] [confirmCart] Click Confirm Button 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  14 Aug 2021 
+ [INFO] [Log] [location] Location is:  Paris, France 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 1,039.62 
+ [INFO] [Log] [fullTotal] Full Total is: 1,039.62 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Drop down Click Success 
+ [INFO] [Log] [languageSelect] Select France from the Drop Down 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Element is Visible 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Drop down Click Success 
+ [INFO] [Log] [pickUpPointSelect] Select Hotel Pickup from the Drop Down 
+ [INFO] [Log] [secondRoomPaxName] Passenger Title Select for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] First Name Entered for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] Last Name Entered for Second Room Passenger 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  14 Aug 2021 
+ [INFO] [Log] [location] Location is:  Paris, France 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 1,039.62 
+ [INFO] [Log] [fullTotal] Full Total is: 1,039.62 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Drop down Click Success 
+ [INFO] [Log] [languageSelect] Select France from the Drop Down 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Element is Visible 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Drop down Click Success 
+ [INFO] [Log] [pickUpPointSelect] Select Hotel Pickup from the Drop Down 
+ [INFO] [Log] [secondRoomPaxName] Passenger Title Select for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] First Name Entered for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] Last Name Entered for Second Room Passenger 
+ [INFO] [Log] [addSecondPassengerBirthDate] Birth Day Element is Visible 
+ [INFO] [Log] [confirmCart] Tick the Box 
+ [INFO] [Log] [confirmCart] Click Confirm Button 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  14 Aug 2021 
+ [INFO] [Log] [location] Location is:  Paris, France 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 1,039.62 
+ [INFO] [Log] [fullTotal] Full Total is: 1,039.62 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Drop down Click Success 
+ [INFO] [Log] [languageSelect] Select France from the Drop Down 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Element is Visible 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Drop down Click Success 
+ [INFO] [Log] [pickUpPointSelect] Select Hotel Pickup from the Drop Down 
+ [INFO] [Log] [secondRoomPaxName] Passenger Title Select for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] First Name Entered for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] Last Name Entered for Second Room Passenger 
+ [INFO] [Log] [addSecondPassengerBirthDate] Birth Day Element is Visible 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  14 Aug 2021 
+ [INFO] [Log] [location] Location is:  Paris, France 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 1,039.62 
+ [INFO] [Log] [fullTotal] Full Total is: 1,039.62 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Drop down Click Success 
+ [INFO] [Log] [languageSelect] Select France from the Drop Down 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Element is Visible 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Drop down Click Success 
+ [INFO] [Log] [pickUpPointSelect] Select Hotel Pickup from the Drop Down 
+ [INFO] [Log] [secondRoomPaxName] Passenger Title Select for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] First Name Entered for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] Last Name Entered for Second Room Passenger 
+ [INFO] [Log] [addSecondPassengerBirthDate] Birth Day Element is Visible 
+ [INFO] [Log] [addSecondPassengerBirthDate] Birth Date Entered 
+ [INFO] [Log] [addSecondPassengerBirthDate] Birth Month Entered 
+ [INFO] [Log] [addSecondPassengerBirthDate] Birth Year Entered 
+ [INFO] [Log] [confirmCart] Tick the Box 
+ [INFO] [Log] [confirmCart] Click Confirm Button 
+ [INFO] [Log] [bookingIdVisible] Waiting till Navigate to the Page 
+ [INFO] [Log] [bookingIdVisible] Navigated to the Confirmation Page 
+ [INFO] [Log] [bookingIdVisible] Navigated URL is: https://staging.theculturetrip.com/checkout/?startDate=2021-08-14&supplierCode=VT105075P7&city=PAR&fc=GEN~0~TG2__06:00~VT15~VT105075P7~105075P7&pax=1-1-0-0&childDob=2006&seniorDob=&currency=GBP&bookingProductType=experiences 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  14 Aug 2021 
+ [INFO] [Log] [location] Location is:  Paris, France 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 1,039.62 
+ [INFO] [Log] [fullTotal] Full Total is: 1,039.62 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Drop down Click Success 
+ [INFO] [Log] [languageSelect] Select France from the Drop Down 
+ [INFO] [Log] [addBirthDate] Birth Day Element is Visible 
+ [INFO] [Log] [addBirthDate] Birth Date Entered 
+ [INFO] [Log] [addBirthDate] Birth Month Entered 
+ [INFO] [Log] [addBirthDate] Birth Year Entered 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Element is Visible 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Drop down Click Success 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  14 Aug 2021 
+ [INFO] [Log] [location] Location is:  Paris, France 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 1,039.62 
+ [INFO] [Log] [fullTotal] Full Total is: 1,039.62 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Drop down Click Success 
+ [INFO] [Log] [languageSelect] Select France from the Drop Down 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Element is Visible 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Drop down Click Success 
+ [INFO] [Log] [pickUpPointSelect] Select Hotel Pickup from the Drop Down 
+ [INFO] [Log] [addBirthDate] Birth Day Element is Visible 
+ [INFO] [Log] [addBirthDate] Birth Date Entered 
+ [INFO] [Log] [addBirthDate] Birth Month Entered 
+ [INFO] [Log] [addBirthDate] Birth Year Entered 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  14 Aug 2021 
+ [INFO] [Log] [location] Location is:  Paris, France 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 1,039.62 
+ [INFO] [Log] [fullTotal] Full Total is: 1,039.62 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Drop down Click Success 
+ [INFO] [Log] [languageSelect] Select France from the Drop Down 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Element is Visible 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Drop down Click Success 
+ [INFO] [Log] [pickUpPointSelect] Select Hotel Pickup from the Drop Down 
+ [INFO] [Log] [addBirthDate] Birth Day Element is Visible 
+ [INFO] [Log] [addBirthDate] Birth Date Entered 
+ [INFO] [Log] [addBirthDate] Birth Month Entered 
+ [INFO] [Log] [addBirthDate] Birth Year Entered 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  14 Aug 2021 
+ [INFO] [Log] [location] Location is:  Paris, France 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 1,039.62 
+ [INFO] [Log] [fullTotal] Full Total is: 1,039.62 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Drop down Click Success 
+ [INFO] [Log] [languageSelect] Select France from the Drop Down 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Element is Visible 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Drop down Click Success 
+ [INFO] [Log] [pickUpPointSelect] Select Hotel Pickup from the Drop Down 
+ [INFO] [Log] [addBirthDate] Birth Day Element is Visible 
+ [INFO] [Log] [addBirthDate] Birth Date Entered 
+ [INFO] [Log] [addBirthDate] Birth Month Entered 
+ [INFO] [Log] [addBirthDate] Birth Year Entered 
+ [INFO] [Log] [secondRoomPaxName] Passenger Title Select for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] First Name Entered for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] Last Name Entered for Second Room Passenger 
+ [INFO] [Log] [addSecondPassengerBirthDate] Birth Day Element is Visible 
+ [INFO] [Log] [addSecondPassengerBirthDate] Birth Date Entered 
+ [INFO] [Log] [addSecondPassengerBirthDate] Birth Month Entered 
+ [INFO] [Log] [addSecondPassengerBirthDate] Birth Year Entered 
+ [INFO] [Log] [confirmCart] Tick the Box 
+ [INFO] [Log] [confirmCart] Click Confirm Button 
+ [INFO] [Log] [bookingIdVisible] Waiting till Navigate to the Page 
+ [INFO] [Log] [bookingIdVisible] Navigated to the Confirmation Page 
+ [INFO] [Log] [bookingIdVisible] Navigated URL is: https://staging.theculturetrip.com/checkout/confirmation?b=59286&platform=web&tkn=I8eg93StKrB1EC%2BLz%2F1mTTxJvwoFJRjifG3rGUAmb%2FI1Y0C7bDKHfNYZ6QGWJFa1 
+ [INFO] [Log] [bookingIdVisible] BookingId is: Booking ID: 59286 
+ [INFO] [Log] [productNameAssertion] Confirm Product Name Assertion Success 
+ [INFO] [Log] [dateAssertion] Departure Date Assertion Success 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  14 Aug 2021 
+ [INFO] [Log] [location] Location is:  Paris, France 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 1,039.62 
+ [INFO] [Log] [fullTotal] Full Total is: 1,039.62 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Drop down Click Success 
+ [INFO] [Log] [languageSelect] Select France from the Drop Down 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Element is Visible 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Drop down Click Success 
+ [INFO] [Log] [pickUpPointSelect] Select Hotel Pickup from the Drop Down 
+ [INFO] [Log] [addBirthDate] Birth Day Element is Visible 
+ [INFO] [Log] [addBirthDate] Birth Date Entered 
+ [INFO] [Log] [addBirthDate] Birth Month Entered 
+ [INFO] [Log] [addBirthDate] Birth Year Entered 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  14 Aug 2021 
+ [INFO] [Log] [location] Location is:  Paris, France 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 1,039.62 
+ [INFO] [Log] [fullTotal] Full Total is: 1,039.62 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Drop down Click Success 
+ [INFO] [Log] [languageSelect] Select France from the Drop Down 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Element is Visible 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Drop down Click Success 
+ [INFO] [Log] [pickUpPointSelect] Select Hotel Pickup from the Drop Down 
+ [INFO] [Log] [addBirthDate] Birth Day Element is Visible 
+ [INFO] [Log] [addBirthDate] Birth Date Entered 
+ [INFO] [Log] [addBirthDate] Birth Month Entered 
+ [INFO] [Log] [addBirthDate] Birth Year Entered 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  14 Aug 2021 
+ [INFO] [Log] [location] Location is:  Paris, France 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 1,039.62 
+ [INFO] [Log] [fullTotal] Full Total is: 1,039.62 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Drop down Click Success 
+ [INFO] [Log] [languageSelect] Select France from the Drop Down 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Element is Visible 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Drop down Click Success 
+ [INFO] [Log] [pickUpPointSelect] Select Hotel Pickup from the Drop Down 
+ [INFO] [Log] [addBirthDate] Birth Day Element is Visible 
+ [INFO] [Log] [addBirthDate] Birth Date Entered 
+ [INFO] [Log] [addBirthDate] Birth Month Entered 
+ [INFO] [Log] [addBirthDate] Birth Year Entered 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  14 Aug 2021 
+ [INFO] [Log] [location] Location is:  Paris, France 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 1,039.62 
+ [INFO] [Log] [fullTotal] Full Total is: 1,039.62 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Drop down Click Success 
+ [INFO] [Log] [languageSelect] Select France from the Drop Down 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Element is Visible 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Drop down Click Success 
+ [INFO] [Log] [pickUpPointSelect] Select Hotel Pickup from the Drop Down 
+ [INFO] [Log] [addBirthDate] Birth Day Element is Visible 
+ [INFO] [Log] [addBirthDate] Birth Date Entered 
+ [INFO] [Log] [addBirthDate] Birth Month Entered 
+ [INFO] [Log] [addBirthDate] Birth Year Entered 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  14 Aug 2021 
+ [INFO] [Log] [location] Location is:  Paris, France 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 1,039.62 
+ [INFO] [Log] [fullTotal] Full Total is: 1,039.62 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Drop down Click Success 
+ [INFO] [Log] [languageSelect] Select France from the Drop Down 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Element is Visible 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Drop down Click Success 
+ [INFO] [Log] [pickUpPointSelect] Select Hotel Pickup from the Drop Down 
+ [INFO] [Log] [addBirthDate] Birth Day Element is Visible 
+ [INFO] [Log] [addBirthDate] Birth Date Entered 
+ [INFO] [Log] [addBirthDate] Birth Month Entered 
+ [INFO] [Log] [addBirthDate] Birth Year Entered 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  14 Aug 2021 
+ [INFO] [Log] [location] Location is:  Paris, France 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 1,039.62 
+ [INFO] [Log] [fullTotal] Full Total is: 1,039.62 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Drop down Click Success 
+ [INFO] [Log] [languageSelect] Select France from the Drop Down 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Element is Visible 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Drop down Click Success 
+ [INFO] [Log] [pickUpPointSelect] Select Hotel Pickup from the Drop Down 
+ [INFO] [Log] [addBirthDate] Birth Day Element is Visible 
+ [INFO] [Log] [addBirthDate] Birth Date Entered 
+ [INFO] [Log] [addBirthDate] Birth Month Entered 
+ [INFO] [Log] [addBirthDate] Birth Year Entered 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  14 Aug 2021 
+ [INFO] [Log] [location] Location is:  Paris, France 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 1,039.62 
+ [INFO] [Log] [fullTotal] Full Total is: 1,039.62 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Drop down Click Success 
+ [INFO] [Log] [languageSelect] Select France from the Drop Down 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Element is Visible 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Drop down Click Success 
+ [INFO] [Log] [pickUpPointSelect] Select Hotel Pickup from the Drop Down 
+ [INFO] [Log] [addBirthDate] Birth Day Element is Visible 
+ [INFO] [Log] [addBirthDate] Birth Date Entered 
+ [INFO] [Log] [addBirthDate] Birth Month Entered 
+ [INFO] [Log] [addBirthDate] Birth Year Entered 
+ [INFO] [Log] [secondRoomPaxName] Passenger Title Select for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] First Name Entered for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] Last Name Entered for Second Room Passenger 
+ [INFO] [Log] [addSecondPassengerBirthDate] Birth Day Element is Visible 
+ [INFO] [Log] [addSecondPassengerBirthDate] Birth Date Entered 
+ [INFO] [Log] [addSecondPassengerBirthDate] Birth Month Entered 
+ [INFO] [Log] [addSecondPassengerBirthDate] Birth Year Entered 
+ [INFO] [Log] [confirmCart] Tick the Box 
+ [INFO] [Log] [confirmCart] Click Confirm Button 
+ [INFO] [Log] [bookingIdVisible] Waiting till Navigate to the Page 
+ [INFO] [Log] [bookingIdVisible] Navigated to the Confirmation Page 
+ [INFO] [Log] [bookingIdVisible] Navigated URL is: https://staging.theculturetrip.com/checkout/confirmation?b=59287&platform=web&tkn=5vbcpIOgCAcONyxUpt%2BeUjxJvwoFJRjifG3rGUAmb%2FI1Y0C7bDKHfNYZ6QGWJFa1 
+ [INFO] [Log] [bookingIdVisible] BookingId is: Booking ID: 59287 
+ [INFO] [Log] [productNameAssertion] Confirm Product Name Assertion Success 
+ [INFO] [Log] [dateAssertion] Departure Date Assertion Success 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  14 Aug 2021 
+ [INFO] [Log] [location] Location is:  Paris, France 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 1,039.62 
+ [INFO] [Log] [fullTotal] Full Total is: 1,039.62 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Drop down Click Success 
+ [INFO] [Log] [languageSelect] Select France from the Drop Down 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Element is Visible 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Drop down Click Success 
+ [INFO] [Log] [pickUpPointSelect] Select Hotel Pickup from the Drop Down 
+ [INFO] [Log] [addBirthDate] Birth Day Element is Visible 
+ [INFO] [Log] [addBirthDate] Birth Date Entered 
+ [INFO] [Log] [addBirthDate] Birth Month Entered 
+ [INFO] [Log] [addBirthDate] Birth Year Entered 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  14 Aug 2021 
+ [INFO] [Log] [location] Location is:  Paris, France 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 1,039.62 
+ [INFO] [Log] [fullTotal] Full Total is: 1,039.62 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Drop down Click Success 
+ [INFO] [Log] [languageSelect] Select France from the Drop Down 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Element is Visible 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Drop down Click Success 
+ [INFO] [Log] [pickUpPointSelect] Select Hotel Pickup from the Drop Down 
+ [INFO] [Log] [addBirthDate] Birth Day Element is Visible 
+ [INFO] [Log] [addBirthDate] Birth Date Entered 
+ [INFO] [Log] [addBirthDate] Birth Month Entered 
+ [INFO] [Log] [addBirthDate] Birth Year Entered 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  14 Aug 2021 
+ [INFO] [Log] [location] Location is:  Paris, France 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 1,039.62 
+ [INFO] [Log] [fullTotal] Full Total is: 1,039.62 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Drop down Click Success 
+ [INFO] [Log] [languageSelect] Select France from the Drop Down 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Element is Visible 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Drop down Click Success 
+ [INFO] [Log] [pickUpPointSelect] Select Hotel Pickup from the Drop Down 
+ [INFO] [Log] [addBirthDate] Birth Day Element is Visible 
+ [INFO] [Log] [addBirthDate] Birth Date Entered 
+ [INFO] [Log] [addBirthDate] Birth Month Entered 
+ [INFO] [Log] [addBirthDate] Birth Year Entered 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :The legendary Mont-St-Michel including Cancale & St-Malo (TGV Train from Paris) 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  14 Aug 2021 
+ [INFO] [Log] [location] Location is:  Paris, France 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 1,039.62 
+ [INFO] [Log] [fullTotal] Full Total is: 1,039.62 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Drop down Click Success 
+ [INFO] [Log] [languageSelect] Select France from the Drop Down 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Element is Visible 
+ [INFO] [Log] [pickUpPointSelect] Hotel Pickup Drop down Click Success 
+ [INFO] [Log] [pickUpPointSelect] Select Hotel Pickup from the Drop Down 
+ [INFO] [Log] [addBirthDate] Birth Day Element is Visible 
+ [INFO] [Log] [addBirthDate] Birth Date Entered 
+ [INFO] [Log] [addBirthDate] Birth Month Entered 
+ [INFO] [Log] [addBirthDate] Birth Year Entered 
+ [INFO] [Log] [secondRoomPaxName] Passenger Title Select for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] First Name Entered for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] Last Name Entered for Second Room Passenger 
+ [INFO] [Log] [addSecondPassengerBirthDate] Birth Day Element is Visible 
+ [INFO] [Log] [addSecondPassengerBirthDate] Birth Date Entered 
+ [INFO] [Log] [addSecondPassengerBirthDate] Birth Month Entered 
+ [INFO] [Log] [addSecondPassengerBirthDate] Birth Year Entered 
+ [INFO] [Log] [confirmCart] Tick the Box 
+ [INFO] [Log] [confirmCart] Click Confirm Button 
+ [INFO] [Log] [bookingIdVisible] Waiting till Navigate to the Page 
+ [INFO] [Log] [bookingIdVisible] Navigated to the Confirmation Page 
+ [INFO] [Log] [bookingIdVisible] Navigated URL is: https://staging.theculturetrip.com/checkout/confirmation?b=59357&platform=web&tkn=hO6%2BSFRcADrVEee26u1SszxJvwoFJRjifG3rGUAmb%2FI1Y0C7bDKHfNYZ6QGWJFa1 
+ [INFO] [Log] [bookingIdVisible] BookingId is: Booking ID: 59357 
+ [INFO] [Log] [productNameAssertion] Confirm Product Name Assertion Success 
+ [INFO] [Log] [dateAssertion] Departure Date Assertion Success 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :Royal Dinner 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  14 Aug 2021 
+ [INFO] [Log] [location] Location is:  Dubai, United Arab Emirates 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 82.69 
+ [INFO] [Log] [fullTotal] Full Total is: 82.69 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [secondRoomPaxName] Passenger Title Select for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] First Name Entered for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] Last Name Entered for Second Room Passenger 
+ [INFO] [Log] [confirmCart] Tick the Box 
+ [INFO] [Log] [confirmCart] Click Confirm Button 
+ [INFO] [Log] [bookingIdVisible] Waiting till Navigate to the Page 
+ [INFO] [Log] [bookingIdVisible] Navigated to the Confirmation Page 
+ [INFO] [Log] [bookingIdVisible] Navigated URL is: https://staging.theculturetrip.com/checkout/confirmation?b=59391&platform=web&tkn=X85iaiRRQJT4phOECpwvKTxJvwoFJRjifG3rGUAmb%2FI1Y0C7bDKHfNYZ6QGWJFa1 
+ [INFO] [Log] [bookingIdVisible] BookingId is: Booking ID: 59391 
+ [INFO] [Log] [productNameAssertion] Confirm Product Name Assertion Success 
+ [INFO] [Log] [dateAssertion] Departure Date Assertion Success 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :Royal Dinner 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  15 Aug 2021 
+ [INFO] [Log] [location] Location is:  Dubai, United Arab Emirates 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 82.69 
+ [INFO] [Log] [fullTotal] Full Total is: 82.69 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [secondRoomPaxName] Passenger Title Select for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] First Name Entered for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] Last Name Entered for Second Room Passenger 
+ [INFO] [Log] [confirmCart] Tick the Box 
+ [INFO] [Log] [confirmCart] Click Confirm Button 
+ [INFO] [Log] [bookingIdVisible] Waiting till Navigate to the Page 
+ [INFO] [Log] [bookingIdVisible] Navigated to the Confirmation Page 
+ [INFO] [Log] [bookingIdVisible] Navigated URL is: https://staging.theculturetrip.com/checkout/confirmation?b=59412&platform=web&tkn=8hbpPh15c7ITfFSdT95BcTxJvwoFJRjifG3rGUAmb%2FI1Y0C7bDKHfNYZ6QGWJFa1 
+ [INFO] [Log] [bookingIdVisible] BookingId is: Booking ID: 59412 
+ [INFO] [Log] [productNameAssertion] Confirm Product Name Assertion Success 
+ [INFO] [Log] [dateAssertion] Departure Date Assertion Success 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :Royal Dinner 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  15 Aug 2021 
+ [INFO] [Log] [location] Location is:  Dubai, United Arab Emirates 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 82.69 
+ [INFO] [Log] [fullTotal] Full Total is: 82.69 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [secondRoomPaxName] Passenger Title Select for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] First Name Entered for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] Last Name Entered for Second Room Passenger 
+ [INFO] [Log] [confirmCart] Tick the Box 
+ [INFO] [Log] [confirmCart] Click Confirm Button 
+ [INFO] [Log] [bookingIdVisible] Waiting till Navigate to the Page 
+ [INFO] [Log] [bookingIdVisible] Navigated to the Confirmation Page 
+ [INFO] [Log] [bookingIdVisible] Navigated URL is: https://staging.theculturetrip.com/checkout/confirmation?b=59413&platform=web&tkn=oVjyBhKdXvOGvnERl0832DxJvwoFJRjifG3rGUAmb%2FI1Y0C7bDKHfNYZ6QGWJFa1 
+ [INFO] [Log] [bookingIdVisible] BookingId is: Booking ID: 59413 
+ [INFO] [Log] [productNameAssertion] Confirm Product Name Assertion Success 
+ [INFO] [Log] [dateAssertion] Departure Date Assertion Success 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :Royal Dinner 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  15 Aug 2021 
+ [INFO] [Log] [location] Location is:  Dubai, United Arab Emirates 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 82.69 
+ [INFO] [Log] [fullTotal] Full Total is: 82.69 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [secondRoomPaxName] Passenger Title Select for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] First Name Entered for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] Last Name Entered for Second Room Passenger 
+ [INFO] [Log] [confirmCart] Tick the Box 
+ [INFO] [Log] [confirmCart] Click Confirm Button 
+ [INFO] [Log] [bookingIdVisible] Waiting till Navigate to the Page 
+ [INFO] [Log] [bookingIdVisible] Navigated to the Confirmation Page 
+ [INFO] [Log] [bookingIdVisible] Navigated URL is: https://staging.theculturetrip.com/checkout/confirmation?b=59414&platform=web&tkn=uSBKJLl0gKhl%2Bjd4UwUM%2BzxJvwoFJRjifG3rGUAmb%2FI1Y0C7bDKHfNYZ6QGWJFa1 
+ [INFO] [Log] [bookingIdVisible] BookingId is: Booking ID: 59414 
+ [INFO] [Log] [productNameAssertion] Confirm Product Name Assertion Success 
+ [INFO] [Log] [dateAssertion] Departure Date Assertion Success 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :Royal Dinner 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  15 Aug 2021 
+ [INFO] [Log] [location] Location is:  Dubai, United Arab Emirates 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 82.69 
+ [INFO] [Log] [fullTotal] Full Total is: 82.69 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [secondRoomPaxName] Passenger Title Select for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] First Name Entered for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] Last Name Entered for Second Room Passenger 
+ [INFO] [Log] [confirmCart] Tick the Box 
+ [INFO] [Log] [confirmCart] Click Confirm Button 
+ [INFO] [Log] [bookingIdVisible] Waiting till Navigate to the Page 
+ [INFO] [Log] [bookingIdVisible] Navigated to the Confirmation Page 
+ [INFO] [Log] [bookingIdVisible] Navigated URL is: https://staging.theculturetrip.com/checkout/confirmation?b=59415&platform=web&tkn=QdPK3g9NV%2BZTK%2Fk13JJruDxJvwoFJRjifG3rGUAmb%2FI1Y0C7bDKHfNYZ6QGWJFa1 
+ [INFO] [Log] [bookingIdVisible] BookingId is: Booking ID: 59415 
+ [INFO] [Log] [productNameAssertion] Confirm Product Name Assertion Success 
+ [INFO] [Log] [dateAssertion] Departure Date Assertion Success 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :Royal Dinner 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  15 Aug 2021 
+ [INFO] [Log] [location] Location is:  Dubai, United Arab Emirates 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 82.69 
+ [INFO] [Log] [fullTotal] Full Total is: 82.69 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [secondRoomPaxName] Passenger Title Select for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] First Name Entered for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] Last Name Entered for Second Room Passenger 
+ [INFO] [Log] [confirmCart] Tick the Box 
+ [INFO] [Log] [confirmCart] Click Confirm Button 
+ [INFO] [Log] [bookingIdVisible] Waiting till Navigate to the Page 
+ [INFO] [Log] [bookingIdVisible] Navigated to the Confirmation Page 
+ [INFO] [Log] [bookingIdVisible] Navigated URL is: https://staging.theculturetrip.com/checkout/confirmation?b=59416&platform=web&tkn=odf7%2BKFAX515wXzuKWvGZzxJvwoFJRjifG3rGUAmb%2FI1Y0C7bDKHfNYZ6QGWJFa1 
+ [INFO] [Log] [bookingIdVisible] BookingId is: Booking ID: 59416 
+ [INFO] [Log] [productNameAssertion] Confirm Product Name Assertion Success 
+ [INFO] [Log] [dateAssertion] Departure Date Assertion Success 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :Royal Dinner 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  15 Aug 2021 
+ [INFO] [Log] [location] Location is:  Dubai, United Arab Emirates 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 82.69 
+ [INFO] [Log] [fullTotal] Full Total is: 82.69 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [secondRoomPaxName] Passenger Title Select for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] First Name Entered for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] Last Name Entered for Second Room Passenger 
+ [INFO] [Log] [confirmCart] Tick the Box 
+ [INFO] [Log] [confirmCart] Click Confirm Button 
+ [INFO] [Log] [bookingIdVisible] Waiting till Navigate to the Page 
+ [INFO] [Log] [bookingIdVisible] Navigated to the Confirmation Page 
+ [INFO] [Log] [bookingIdVisible] Navigated URL is: https://staging.theculturetrip.com/checkout/confirmation?b=59417&platform=web&tkn=03F9lwxpp9M64DWkML5VizxJvwoFJRjifG3rGUAmb%2FI1Y0C7bDKHfNYZ6QGWJFa1 
+ [INFO] [Log] [bookingIdVisible] BookingId is: Booking ID: 59417 
+ [INFO] [Log] [productNameAssertion] Confirm Product Name Assertion Success 
+ [INFO] [Log] [dateAssertion] Departure Date Assertion Success 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :Royal Dinner 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  16 Aug 2021 
+ [INFO] [Log] [location] Location is:  Dubai, United Arab Emirates 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult, 1 Child 
+ [INFO] [Log] [subPrice] Sub Total is: 82.69 
+ [INFO] [Log] [fullTotal] Full Total is: 82.69 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [secondRoomPaxName] Passenger Title Select for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] First Name Entered for Second Room Passenger 
+ [INFO] [Log] [secondRoomPaxName] Last Name Entered for Second Room Passenger 
+ [INFO] [Log] [confirmCart] Tick the Box 
+ [INFO] [Log] [confirmCart] Click Confirm Button 
+ [INFO] [Log] [bookingIdVisible] Waiting till Navigate to the Page 
+ [INFO] [Log] [bookingIdVisible] Navigated to the Confirmation Page 
+ [INFO] [Log] [bookingIdVisible] Navigated URL is: https://staging.theculturetrip.com/checkout/confirmation?b=59418&platform=web&tkn=mrC7DhbN%2BNv6i5Nze71SYTxJvwoFJRjifG3rGUAmb%2FI1Y0C7bDKHfNYZ6QGWJFa1 
+ [INFO] [Log] [bookingIdVisible] BookingId is: Booking ID: 59418 
+ [INFO] [Log] [productNameAssertion] Confirm Product Name Assertion Success 
+ [INFO] [Log] [dateAssertion] Departure Date Assertion Success 
+ 

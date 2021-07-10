@@ -1,0 +1,11 @@
+
+k	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–£¢õýÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ð«¡­þÿÿÿÿ
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÄÍû
+|
+java:S1488"aImmediately return this expression instead of assigning it to the temporary variable "StartDate".(ð«¡­þÿÿÿÿ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(Â¯²Çøÿÿÿÿ
+h	java:S100	"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–£¢õýÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Îú›¤ÿÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(³ëÊ¥øÿÿÿÿ

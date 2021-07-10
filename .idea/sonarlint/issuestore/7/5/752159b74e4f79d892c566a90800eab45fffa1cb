@@ -1,0 +1,12 @@
+
+l	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÄÍû
+^
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Æº“Õùÿÿÿÿ
+X
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(§ÙÄA
+@
+java:S3010"'Remove this assignment of "waitDriver".(‚¨¹Ñıÿÿÿÿ
+7
+java:S3010"#Remove this assignment of "driver".(Î°¸ó
+B
+java:S1068".Remove this unused "waitDriver" private field.(“°õ
