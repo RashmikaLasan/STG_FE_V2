@@ -1133,4 +1133,35 @@
  [INFO] [Log] [bookingIdVisible] BookingId is: Booking ID: 59418 
  [INFO] [Log] [productNameAssertion] Confirm Product Name Assertion Success 
  [INFO] [Log] [dateAssertion] Departure Date Assertion Success 
+ [INFO] [Log] [landedPage] Your Detail Element is Visible 
+ [INFO] [Log] [productName] Product Title is :Hop-on Hop-off London Bus Tour 1 day + FREE extra 1 day 
+ [INFO] [Log] [productName] Product Title Assertion Success 
+ [INFO] [Log] [departureDate] Departure Date is:  09 Sep 2021 
+ [INFO] [Log] [location] Location is:  London, United Kingdom 
+ [INFO] [Log] [guestCount] Guest Count is:  1 Adult 
+ [INFO] [Log] [subPrice] Sub Total is: 37.00 
+ [INFO] [Log] [fullTotal] Full Total is: 37.00 
+ [INFO] [Log] [passengerName] Passenger Title Select 
+ [INFO] [Log] [passengerName] First Name Entered 
+ [INFO] [Log] [passengerName] Last Name Entered 
+ [INFO] [Log] [passengerEmail] Email1 Entered 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [passengerPhone] Country Code Drop down Click Success 
+ [INFO] [Log] [passengerPhone] Country Selected Success 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Element is Visible 
+ [INFO] [Log] [languageSelect] Tour/Activity Language Drop down Click Success 
+ [INFO] [Log] [languageSelect] Select France from the Drop Down 
+ [INFO] [Log] [confirmCart] Tick the Box 
+ [INFO] [Log] [confirmCart] Click Confirm Button 
+ [INFO] [Log] [bookingIdVisible] Waiting till Navigate to the Page 
+ [INFO] [Log] [bookingIdVisible] Navigated to the Confirmation Page 
+ [INFO] [Log] [bookingIdVisible] Navigated URL is: https://staging.theculturetrip.com/checkout/confirmation?b=59419&platform=web&tkn=bb8mPEhXULpEN8jBWdGjLjxJvwoFJRjifG3rGUAmb%2FI1Y0C7bDKHfNYZ6QGWJFa1 
+ [INFO] [Log] [bookingIdVisible] BookingId is: Booking ID: 59419 
+ [INFO] [Log] [productNameAssertion] Confirm Product Name Assertion Success 
+ [INFO] [Log] [dateAssertion] Departure Date Assertion Success 
+ [INFO] [Log] [guestAssertion] Confirm Guest Assertion Success 
+ [INFO] [Log] [locationAssertion] Location Assertion Assertion Success 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [scrollDown] Scroll Down 
+ [INFO] [Log] [priceAssertion] Price Assertion Success and Paid Amount is: 37.00 
  
